@@ -20,7 +20,7 @@ Claude Code are in [`CLAUDE.md`](CLAUDE.md).
 | `helper/` | Python desktop helper (`tvtidy_helper/`) and its PyInstaller build files (`build/`) |
 | `worker/` | Cloudflare Worker that receives payment webhooks and writes licenses to Supabase |
 | `supabase/migrations/` | Database schema for users, licenses, watches and list changes |
-| `.github/workflows/` | `deploy.yml` (site deploy); sync and helper release workflows come later |
+| `.github/workflows/` | `deploy.yml` (site deploy), `sync.yml` (nightly upstream sync); the helper release workflow comes later |
 | `docs/` | The GTM kit, the upstream survey and `decisions.md` |
 
 ## Commands
@@ -34,7 +34,7 @@ cd site && npm ci
 
 | Command | What it does |
 |---|---|
-| `make sync` | Sync and normalize the upstream lists (`scripts/sync_upstream.py`, Session 2) |
+| `make sync` | Sync upstream at `HEAD` (or `--commit <sha>`) into `data/upstream/` and `data/normalized/`; the clone is cached in `~/.cache/tvtidy/upstream` |
 | `make build` | Build the static site into `site/out/` |
 | `make test` | Run pytest, then vitest |
 | `make helper` | Run the desktop helper (Session 6) |

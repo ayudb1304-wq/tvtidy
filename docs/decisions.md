@@ -25,3 +25,41 @@ Decisions Claude Code made that CLAUDE.md did not cover.
   directories are kept with `.gitkeep`, and `scripts/tests/test_layout.py` checks they exist.
 - **pytest is configured in `pyproject.toml`** (`testpaths = scripts, helper`) and pinned in
   `requirements-dev.txt`. The Makefile uses `.venv/bin/python` when the venv exists.
+
+## Session 2 (upstream sync), 2026-10-28
+
+- **The upstream clone lives outside the repo**, in `~/.cache/tvtidy/upstream` (`--cache-dir` to
+  change it), as a partial clone (`--filter=blob:none`) with a sparse checkout of `examples/` and the
+  root files. Upstream's `CLAUDE.md`, `AGENTS.md` and `PROMPT.md` never land in our tree.
+- **`data/upstream/` holds only `LICENSE`, `NOTICE` and `examples/<model>/{tv.json, debloat*.txt,
+  README.md}`** (about 2.3 MB, 774 files) and is committed. `sync.yml` commits it along with
+  `data/normalized/`, although the Session 2 prompt names only `data/normalized/`. The MIT notice has
+  to travel with the copied lists, and a committed copy makes each sync's list changes reviewable.
+- **Forced `no` beats overrides.** Stock launchers, setupwraith and `CORE_RE` packages are always
+  `safe_to_disable: "no"` and `category: "system_risky"` (`category_source: "rule"`), as agreed in
+  `docs/upstream-structure.md` section 7. CLAUDE.md's "overrides win" applies to every other
+  package. An override's description is still used for these packages. `packages.json` has an extra
+  `excluded_reason` field (`core_android`, `stock_launcher`, `setupwraith_wifi` or `null`).
+- **An unparsed list writes only `unparsed.json`** and exits 1. Every other output, including
+  `data/upstream/`, is left as it was, so the data always matches one upstream commit. A successful
+  run deletes a stale `unparsed.json`. Bad overrides or a bad `--commit` exit 2.
+- **The changelog compares the applicable `packages`, not excluded ones.** If upstream adds a stock
+  launcher to a list, that isn't a change for TVTidy users. Re-running the same commit keeps the
+  previous changelog, so a quiet night produces no commit. Outputs have no timestamps, so identical
+  input gives byte-identical files. A renamed model shows up as one removed and one added.
+- **The category heuristic** checks group headers in the order telemetry, ads, preinstalled_app and
+  takes the most common category across models. With no header match it defaults to
+  `preinstalled_app`, which is 980 of the 1,495 packages. Those are the first candidates for overrides.
+- **Group headers** are the first line of a comment block after a blank line, or a `# --- Title`
+  line. 156 of 7,864 applicable package lines have no group; 6 lists use no headers at all.
+- **`kept_packages`** are commented-out lines whose first token is a package name with at least two
+  dots, so `README.md` in prose isn't counted. Only the note's first line is kept. A quirk that names a
+  package can be picked up (for example `com.google.android.gms` on `aipro2k`); they are display-only.
+- **Extra lists** (`debloat-*.txt`) are recorded in `variants` and copied, but not parsed.
+- **`last_changed_at`** is the committer date of the newest upstream commit touching the model's
+  folder, read in one `git log` pass. `firmware_note` is the whole first header comment line.
+- **`deploy.yml` also runs on `workflow_run` after "Sync upstream lists"** succeeds. Pushes made with
+  `GITHUB_TOKEN` don't trigger push workflows, so without it the nightly commits would never deploy.
+  It redeploys nightly even when nothing changed, about 30 of the 500 monthly Pages builds.
+- **`--commit` is validated** (no leading `-`), and `sync.yml` passes the dispatch input through an
+  environment variable, not straight into the shell line.

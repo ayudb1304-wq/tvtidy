@@ -8,6 +8,7 @@ Static Next.js site + Python desktop helper that let Android TV owners disable p
 - Never use the string "CleanYourTV" in a brand position (title tag, logo, domain, OG image). It may appear in attribution text and comparison pages only.
 - Site is a static export (output: 'export'). No server components that need a runtime. No API routes in the site; webhooks live in worker/.
 - Package descriptions: if a package is not in data/overrides/packages.json, mark safe_to_disable = "caution" and say the description is unverified.
+- Never apply stock launchers, com.google.android.tungsten.setupwraith or core Android/TV middleware (CORE_RE in scripts/sync_upstream.py), whatever upstream lists or overrides say. The sync marks them excluded_packages / safe_to_disable = "no"; the helper must refuse them too.
 - Helper: every write to the TV is preceded by writing a restore file to ~/.tvtidy/restore/<model>-<timestamp>.json. No exceptions.
 - Keep dependencies mainstream: Next.js, Tailwind, Supabase JS, PySide6, PyInstaller. Ask before adding anything else.
 - Tests: pytest for scripts/ and helper/; vitest for site/lib. Run them before saying a task is done.

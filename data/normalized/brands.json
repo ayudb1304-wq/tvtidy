@@ -1,0 +1,467 @@
+[
+  {
+    "slug": "acer",
+    "display_name": "Acer",
+    "model_count": 1
+  },
+  {
+    "slug": "aipro2k",
+    "display_name": "AiPro2K",
+    "model_count": 1
+  },
+  {
+    "slug": "aiwa",
+    "display_name": "AIWA",
+    "model_count": 1
+  },
+  {
+    "slug": "alwtniet",
+    "display_name": "Alwtniet",
+    "model_count": 1
+  },
+  {
+    "slug": "amazon-fire-tv",
+    "display_name": "Amazon Fire TV",
+    "model_count": 7
+  },
+  {
+    "slug": "anker-nebula",
+    "display_name": "Anker Nebula",
+    "model_count": 3
+  },
+  {
+    "slug": "aqua",
+    "display_name": "AQUA",
+    "model_count": 1
+  },
+  {
+    "slug": "artel",
+    "display_name": "Artel",
+    "model_count": 1
+  },
+  {
+    "slug": "asus",
+    "display_name": "ASUS",
+    "model_count": 1
+  },
+  {
+    "slug": "beko",
+    "display_name": "Beko",
+    "model_count": 1
+  },
+  {
+    "slug": "benq",
+    "display_name": "BenQ",
+    "model_count": 5
+  },
+  {
+    "slug": "bgh",
+    "display_name": "BGH",
+    "model_count": 1
+  },
+  {
+    "slug": "byintek",
+    "display_name": "BYINTEK",
+    "model_count": 2
+  },
+  {
+    "slug": "caxium",
+    "display_name": "Caxium",
+    "model_count": 1
+  },
+  {
+    "slug": "cecotec",
+    "display_name": "Cecotec",
+    "model_count": 1
+  },
+  {
+    "slug": "challenger",
+    "display_name": "Challenger",
+    "model_count": 1
+  },
+  {
+    "slug": "chiq",
+    "display_name": "CHiQ",
+    "model_count": 2
+  },
+  {
+    "slug": "compac",
+    "display_name": "Compac",
+    "model_count": 1
+  },
+  {
+    "slug": "dcolor",
+    "display_name": "Dcolor",
+    "model_count": 1
+  },
+  {
+    "slug": "dialog",
+    "display_name": "Dialog",
+    "model_count": 1
+  },
+  {
+    "slug": "dyon",
+    "display_name": "DYON",
+    "model_count": 1
+  },
+  {
+    "slug": "eko",
+    "display_name": "EKO",
+    "model_count": 2
+  },
+  {
+    "slug": "epson",
+    "display_name": "Epson",
+    "model_count": 1
+  },
+  {
+    "slug": "ffalcon",
+    "display_name": "FFalcon",
+    "model_count": 2
+  },
+  {
+    "slug": "formovie",
+    "display_name": "Formovie",
+    "model_count": 2
+  },
+  {
+    "slug": "freebox",
+    "display_name": "Freebox",
+    "model_count": 1
+  },
+  {
+    "slug": "gadnic",
+    "display_name": "Gadnic",
+    "model_count": 1
+  },
+  {
+    "slug": "google",
+    "display_name": "Google",
+    "model_count": 3
+  },
+  {
+    "slug": "grundig",
+    "display_name": "Grundig",
+    "model_count": 3
+  },
+  {
+    "slug": "haier",
+    "display_name": "Haier",
+    "model_count": 3
+  },
+  {
+    "slug": "hisense",
+    "display_name": "Hisense",
+    "model_count": 11
+  },
+  {
+    "slug": "hitachi",
+    "display_name": "Hitachi",
+    "model_count": 2
+  },
+  {
+    "slug": "home",
+    "display_name": "Home+",
+    "model_count": 1
+  },
+  {
+    "slug": "hotack",
+    "display_name": "HOTACK",
+    "model_count": 1
+  },
+  {
+    "slug": "hy320",
+    "display_name": "HY320",
+    "model_count": 1
+  },
+  {
+    "slug": "inclo",
+    "display_name": "INCLO",
+    "model_count": 1
+  },
+  {
+    "slug": "insignia-fire-tv",
+    "display_name": "Insignia Fire TV",
+    "model_count": 2
+  },
+  {
+    "slug": "jmgo",
+    "display_name": "JMGO",
+    "model_count": 1
+  },
+  {
+    "slug": "jvc",
+    "display_name": "JVC",
+    "model_count": 4
+  },
+  {
+    "slug": "kalley",
+    "display_name": "Kalley",
+    "model_count": 2
+  },
+  {
+    "slug": "karbonn",
+    "display_name": "Karbonn",
+    "model_count": 1
+  },
+  {
+    "slug": "kogan",
+    "display_name": "Kogan",
+    "model_count": 2
+  },
+  {
+    "slug": "ktc",
+    "display_name": "KTC",
+    "model_count": 1
+  },
+  {
+    "slug": "liberton",
+    "display_name": "Liberton",
+    "model_count": 1
+  },
+  {
+    "slug": "lumio",
+    "display_name": "Lumio",
+    "model_count": 1
+  },
+  {
+    "slug": "magcubic",
+    "display_name": "Magcubic",
+    "model_count": 1
+  },
+  {
+    "slug": "master-g",
+    "display_name": "Master-G",
+    "model_count": 1
+  },
+  {
+    "slug": "motorola",
+    "display_name": "Motorola",
+    "model_count": 3
+  },
+  {
+    "slug": "mtc",
+    "display_name": "MTC",
+    "model_count": 1
+  },
+  {
+    "slug": "next",
+    "display_name": "Next",
+    "model_count": 1
+  },
+  {
+    "slug": "noblex",
+    "display_name": "Noblex",
+    "model_count": 1
+  },
+  {
+    "slug": "nokia",
+    "display_name": "Nokia",
+    "model_count": 2
+  },
+  {
+    "slug": "nvidia-shield",
+    "display_name": "NVIDIA Shield",
+    "model_count": 3
+  },
+  {
+    "slug": "ok",
+    "display_name": "OK.",
+    "model_count": 1
+  },
+  {
+    "slug": "oneplus",
+    "display_name": "OnePlus",
+    "model_count": 4
+  },
+  {
+    "slug": "onn",
+    "display_name": "onn",
+    "model_count": 2
+  },
+  {
+    "slug": "oppo",
+    "display_name": "OPPO",
+    "model_count": 1
+  },
+  {
+    "slug": "panasonic",
+    "display_name": "Panasonic",
+    "model_count": 6
+  },
+  {
+    "slug": "panavox",
+    "display_name": "Panavox",
+    "model_count": 1
+  },
+  {
+    "slug": "peaq",
+    "display_name": "PEAQ",
+    "model_count": 1
+  },
+  {
+    "slug": "philips",
+    "display_name": "Philips",
+    "model_count": 18
+  },
+  {
+    "slug": "polytron",
+    "display_name": "Polytron",
+    "model_count": 1
+  },
+  {
+    "slug": "portronics",
+    "display_name": "Portronics",
+    "model_count": 1
+  },
+  {
+    "slug": "pptv",
+    "display_name": "PPTV",
+    "model_count": 1
+  },
+  {
+    "slug": "prism",
+    "display_name": "PRISM+",
+    "model_count": 1
+  },
+  {
+    "slug": "rca",
+    "display_name": "RCA",
+    "model_count": 3
+  },
+  {
+    "slug": "redmi",
+    "display_name": "Redmi",
+    "model_count": 3
+  },
+  {
+    "slug": "rocktek",
+    "display_name": "RockTek",
+    "model_count": 2
+  },
+  {
+    "slug": "sankey",
+    "display_name": "Sankey",
+    "model_count": 2
+  },
+  {
+    "slug": "sanyo",
+    "display_name": "SANYO",
+    "model_count": 1
+  },
+  {
+    "slug": "sber",
+    "display_name": "Sber",
+    "model_count": 2
+  },
+  {
+    "slug": "seleco",
+    "display_name": "Seleco",
+    "model_count": 1
+  },
+  {
+    "slug": "sharp",
+    "display_name": "SHARP",
+    "model_count": 5
+  },
+  {
+    "slug": "siragon",
+    "display_name": "Síragon",
+    "model_count": 1
+  },
+  {
+    "slug": "skyworth",
+    "display_name": "Skyworth",
+    "model_count": 14
+  },
+  {
+    "slug": "sony",
+    "display_name": "Sony",
+    "model_count": 40
+  },
+  {
+    "slug": "stellamore",
+    "display_name": "Stellamore",
+    "model_count": 1
+  },
+  {
+    "slug": "super-general",
+    "display_name": "Super General",
+    "model_count": 1
+  },
+  {
+    "slug": "tcl",
+    "display_name": "TCL",
+    "model_count": 76
+  },
+  {
+    "slug": "tele-system",
+    "display_name": "Tele System",
+    "model_count": 1
+  },
+  {
+    "slug": "thomson",
+    "display_name": "Thomson",
+    "model_count": 4
+  },
+  {
+    "slug": "tivo",
+    "display_name": "TiVo",
+    "model_count": 1
+  },
+  {
+    "slug": "tornado",
+    "display_name": "Tornado",
+    "model_count": 1
+  },
+  {
+    "slug": "toshiba",
+    "display_name": "Toshiba",
+    "model_count": 3
+  },
+  {
+    "slug": "turkcell",
+    "display_name": "Turkcell",
+    "model_count": 1
+  },
+  {
+    "slug": "tuvio",
+    "display_name": "Tuvio",
+    "model_count": 1
+  },
+  {
+    "slug": "verizon",
+    "display_name": "Verizon",
+    "model_count": 1
+  },
+  {
+    "slug": "vidda",
+    "display_name": "Vidda",
+    "model_count": 2
+  },
+  {
+    "slug": "vision",
+    "display_name": "Vision",
+    "model_count": 1
+  },
+  {
+    "slug": "vu",
+    "display_name": "Vu",
+    "model_count": 3
+  },
+  {
+    "slug": "wanbo",
+    "display_name": "Wanbo",
+    "model_count": 1
+  },
+  {
+    "slug": "xgimi",
+    "display_name": "XGIMI",
+    "model_count": 5
+  },
+  {
+    "slug": "xiaomi",
+    "display_name": "Xiaomi",
+    "model_count": 32
+  }
+]

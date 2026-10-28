@@ -1,0 +1,59 @@
+name: Sync upstream lists
+
+on:
+  schedule:
+    - cron: "30 20 * * *" # 02:00 IST
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: Upstream commit or ref to sync
+        required: false
+        default: HEAD
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install
+        run: pip install -r requirements-dev.txt
+
+      # Exits non-zero (and the job fails before anything is committed) when an upstream list
+      # cannot be parsed; data/normalized/unparsed.json in the log says which.
+      - name: Sync
+        env:
+          COMMIT: ${{ inputs.commit || 'HEAD' }}
+        run: python scripts/sync_upstream.py --commit "$COMMIT"
+
+      - name: Test
+        run: python -m pytest
+
+      - name: Commit normalized data
+        run: |
+          git add data/upstream data/normalized
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          sha=$(python -c 'import json; print(json.load(open("data/normalized/models.json"))[0]["upstream_commit"])')
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync upstream lists to ${sha:0:7}"
+          git push
+
+      # TODO (Session 10): call the Worker's /notify endpoint with data/normalized/changelog.json so
+      # watchers are emailed about list changes (kit sections 5 and 8).
