@@ -63,3 +63,39 @@ Decisions Claude Code made that CLAUDE.md did not cover.
   It redeploys nightly even when nothing changed, about 30 of the 500 monthly Pages builds.
 - **`--commit` is validated** (no leading `-`), and `sync.yml` passes the dispatch input through an
   environment variable, not straight into the shell line.
+
+## Session 3 (model pages), 2026-10-28
+
+- **H1 and `<title>` use the kit's section 9 pattern**, "{Model} debloat list: remove ads and bloat
+  (reversible)", as the Session 3 prompt says. Section 14's copy skeleton has a different H1
+  ("...remove ads and preinstalled apps..."); pick one if that matters.
+- **`{Model}` is a short name:** `display_name` up to its first " (", so "Acer AR55AR2851UDPRO 55\"
+  (SCBC R4, Realtek rtd2851m), India" becomes "Acer AR55AR2851UDPRO 55\"". The full name stays on the
+  data side.
+- **URLs are `/tv/<brand_slug>/<folder name minus the brand prefix>/`**, for example
+  `/tv/xiaomi/mi-tv-4a/`. Folders that don't start with the brand keep their full name. A test
+  checks that the 345 paths are unique.
+- **"Last synced" shows the list's `last_changed_at` and the upstream commit.** The sync keeps no
+  timestamp of its own, so its output stays byte-identical for the same commit.
+- **The description column** shows the override description when there is one. Otherwise it says
+  "Unverified." plus upstream's comment for that package on that model, per CLAUDE.md.
+- **Added a "Left out on purpose" list** under the table, naming each excluded package (stock
+  launcher, setupwraith, core Android) and why TVTidy never disables it.
+- **The caution toggle is off by default.** With no `yes` packages, which is every model until
+  overrides exist, both command blocks show a message instead of commands. Restore lines are
+  `adb shell pm enable --user 0 <pkg>`, matching whatever the disable block shows.
+- **The package table is stacked cards below the `sm` breakpoint and a table above it.** Package ids
+  are too long for a four-column table at 375 px.
+- **Structured data:** HowTo, FAQPage and BreadcrumbList are emitted on every model page and parse as
+  JSON on all 345. Google retired HowTo rich results in 2023 and limits FAQ rich results to
+  well-known government and health sites, so the Rich Results Test won't show either for this site.
+  The markup stays for Bing and AI search, and validates in the Schema Markup Validator.
+- **Breadcrumb and JSON-LD link to `/brand/<slug>/`**, which 404s until Session 4 builds the brand
+  hubs. That is also the one console error Lighthouse reports.
+- **`SITE_URL` is `https://tvtidy.app`** (`site/lib/site.ts`), used for canonical URLs, the sitemap
+  and robots.txt.
+- **Vitest compiles JSX with oxc's automatic runtime** (`vitest.config.ts`), because tsconfig keeps
+  `"jsx": "preserve"` for Next. Page tests live in `site/tests/`.
+- **Lighthouse (mobile, local static server) on `/tv/xiaomi/mi-tv-4a/`:** SEO 100, accessibility
+  100, best practices 96 (the brand 404), performance 81 (LCP 3.8 s). The page carries about 100 KB of
+  HTML plus the RSC payload; worth trimming before launch.

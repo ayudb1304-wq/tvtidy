@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { DISCLAIMER } from "@/lib/disclaimer";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TVTidy",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_NAME,
   description:
     "Model-by-model guides to what is safe to disable on an Android TV or Google TV, with restore commands for every change.",
 };
