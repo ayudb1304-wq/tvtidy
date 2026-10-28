@@ -1,1 +1,252 @@
-{}
+{
+  "com.google.android.feedback": {
+    "description": "Google's feedback and crash reporter, which sends reports to Google. Nothing on the TV depends on it.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.play.games": {
+    "description": "Google Play Games, the profile and achievements app. Only games that sign in with Play Games need it.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.videos": {
+    "description": "Google's movie and TV store (Play Movies, later the Google TV app). Disable only if you don't buy or rent films from Google: purchases and that library stop opening.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.tvrecommendations": {
+    "description": "Fills the recommendation rows on the stock home screen. Disabling it empties those rows; on an NVIDIA SHIELD testers keep it enabled, and some firmware turns it back on.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.youtube.tvmusic": {
+    "description": "YouTube Music. Disable only if you don't play music with it.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.partnersetup": {
+    "description": "Google Partner Setup: tells Google which partner shipped the TV (referral and attribution pings). Nothing you use depends on it.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.katniss": {
+    "description": "Google Assistant and voice search. Disable only if you don't use voice: the remote's microphone button stops working.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.syncadapters.calendar": {
+    "description": "Syncs Google Calendar in the background. TVs have no calendar app that uses it.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.android.printspooler": {
+    "description": "Android's print service. A TV has nothing to print from.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.backdrop": {
+    "description": "Ambient Mode, Google's photo screensaver. Pick another screensaver in Settings first, or the TV has none.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.android.tv.feedbackconsent": {
+    "description": "The prompt that asks whether to share feedback and diagnostics. Nothing depends on it.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.esticker": {
+    "description": "TCL's retail-demo sticker: the energy-label and feature overlay shown on store display sets.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.marvin.talkback": {
+    "description": "TalkBack, the screen reader. Disable only if nobody in the home needs spoken feedback.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.amazon.amazonvideo.livingroom": {
+    "description": "Prime Video. Disable only if you don't watch Prime Video; the app, and any Prime Video button on the remote, stop working.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.android.adservices.api": {
+    "description": "Android's ad services (Privacy Sandbox: Topics and ad attribution). Nothing you watch depends on it.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.onetimeinitializer": {
+    "description": "A task that runs once after first setup and does nothing afterwards.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.messagebox": {
+    "description": "TCL's pushed messages and promos. Several testers keep it because it also carries a TCL system receiver; disable it only after checking the rest of the TV still works.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.android.ondevicepersonalization.services": {
+    "description": "Android's on-device ad personalisation service, part of Privacy Sandbox. Nothing you watch depends on it.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.waterfall.overseas": {
+    "description": "\"TCL Channel\", TCL's web feed of film and show recommendations.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.android.federatedcompute.services": {
+    "description": "Federated learning for Android's ad and usage services. Nothing you watch depends on it.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.apps.tv.dreamx": {
+    "description": "Google TV's Ambient Mode screensaver, which mixes in recommendations. Switch to another screensaver in Settings first, or the TV has none.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.tv.bugreportsender": {
+    "description": "Uploads bug reports to Google automatically. Nothing on the TV depends on it.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.usercenter": {
+    "description": "TCL account sign-in. Disable only if you don't use TCL services; some TCL firmware turns it back on at every boot.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "fusion.android.tv.demo": {
+    "description": "The retail store demo. On some MediaTek-based TVs the same package handles the remote's Input button, so after disabling it check that Input still opens the source menu.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.tcl.partnercustomizer": {
+    "description": "TCL's promo rows on the Google TV home screen. On some models it also carries the remote's TKey or Inputs button, so check those still work.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.apps.mediashell": {
+    "description": "Chromecast built-in. Disable only if you never cast from a phone or laptop: casting to the TV stops working.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.tcl.guard": {
+    "description": "TGuard, TCL's cleaner and app manager. It runs as a persistent system app with an installer service, so test the TV after disabling it.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "android.autoinstalls.config.google.gtvpai": {
+    "description": "Rules that let the Play Store silently install partner apps. Disabling it stops those auto-installs.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.tv.tclhome_passive": {
+    "description": "Pushes TCL content onto the home screen at boot.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.bi": {
+    "description": "TCL's analytics service (usage statistics, crash and network reporting).",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.smartalexa": {
+    "description": "TCL's Alexa bridge. Disable only if you don't control the TV with Alexa; some TCL firmware turns it back on at boot.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.tcl.ui_mediaCenter": {
+    "description": "TCL's USB and DLNA media player. Disable only if you never play files from a USB drive or home server.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.xm.webcontent": {
+    "description": "Xiaomi's web container for promotions shown on PatchWall.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.miui.tv.analytics": {
+    "description": "Xiaomi's TV analytics: collects app usage and logs.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.netflix.ninja": {
+    "description": "Netflix. Disable only if you don't watch Netflix: the app and the remote's Netflix button stop working.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.tcl.channelplus": {
+    "description": "TCL's free ad-supported (FAST) channels. Disabling it also removes them from Live TV, so keep it if you watch them.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.qterics.da.product": {
+    "description": "Qterics device agent on Sony TVs: background telemetry for the manufacturer.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.sony.dtv.da.service": {
+    "description": "Sony's device agent and remote-support service. Re-enable it if Sony support asks to connect to the TV.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.sony.dtv.sonyselect": {
+    "description": "Sony Select, Sony's app recommendation tile and promos.",
+    "category": "ads",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.logkit": {
+    "description": "TCL's log collector, which captures and uploads logs.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.tcl.ocean.instructions": {
+    "description": "TCL's on-screen e-manual and first-run tips.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.google.android.leanbacklauncher.recommendations": {
+    "description": "Recommendation rows for the older Android TV home screen. On some models it is tied to the TV's inputs, so check HDMI and Live TV still work after disabling it.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.tcl.dashboard": {
+    "description": "The \"TCL Home\" panel with its gift box and promo messages. Some owners keep it for the TCL Home tile.",
+    "category": "ads",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.tts": {
+    "description": "Google text-to-speech. Disable only if nobody uses TalkBack or spoken answers: they stop talking.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.google.android.tv.assistant": {
+    "description": "Google Assistant for TV (voice and the Assistant light). Disable only if you don't use voice: the remote's microphone search stops working.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.mstar.android.tv.disclaimercustomization": {
+    "description": "Disclaimer screens used by first-run setup and retail mode. On laser projectors it may show the laser safety notice, so keep it there.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "caution"
+  },
+  "com.sony.dtv.multiscreendemo": {
+    "description": "Sony's in-store multi-screen demo.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "tv.samba.ssm": {
+    "description": "Samba TV: automatic content recognition that fingerprints what is on screen to build viewing data.",
+    "category": "telemetry",
+    "safe_to_disable": "yes"
+  },
+  "com.sony.dtv.smarthelp": {
+    "description": "Sony's Smart Help tile. Keep it if you use the on-TV help.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  },
+  "com.sony.dtv.demosupport": {
+    "description": "Sony's retail demo support.",
+    "category": "preinstalled_app",
+    "safe_to_disable": "yes"
+  }
+}

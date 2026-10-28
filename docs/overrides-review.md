@@ -1,8 +1,7 @@
 # Package overrides: review of the top 50
 
-Status: **proposed, not applied.** The ratings live in `data/overrides/proposed-top-50.json`. The
-sync reads only `data/overrides/packages.json`, so nothing on the site changes until the proposal is
-approved and copied there.
+Status: **approved and applied on 2026-10-28.** The ratings are in `data/overrides/packages.json`;
+edit them there and run `make sync`. This document records the evidence behind each first rating.
 
 These are the 50 packages that appear on the most upstream lists, leaving out the ones TVTidy never
 applies (stock launchers, setupwraith, core Android). Each rating is drawn from upstream's own
@@ -18,20 +17,8 @@ Ratings, from kit section 5:
 - **Keep (0)**: none in this set. The packages that must never be disabled are
   already excluded by the sync.
 
-Effect if applied: 314 of 345 model pages get at least one Safe package (median 5 per page), and
-overrides cover a median 46% of each page's rows. Today every row is "Unverified".
-
-## How to approve
-
-Change any row you disagree with in the JSON (or tell me), then:
-
-```bash
-cp data/overrides/proposed-top-50.json data/overrides/packages.json
-```
-
-```bash
-make sync
-```
+Effect: 314 of 345 model pages get at least one Safe package (median 5 per page), and
+overrides cover a median 46% of each page's rows.
 
 ## Safe
 
