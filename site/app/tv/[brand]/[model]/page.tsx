@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CommandBlocks } from "@/components/CommandBlocks";
+import { Breadcrumbs, breadcrumbJsonLd } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { PackageLink } from "@/components/PackageLink";
+import { Badge, CATEGORY_LABEL, ROW_TINT as ROW } from "@/components/Rating";
 import {
   findModel,
   getModels,
@@ -13,9 +16,8 @@ import {
   shortName,
   upstreamCommitUrl,
   upstreamFileUrl,
-  type Category,
+  brandPath,
   type RatedPackage,
-  type SafeToDisable,
 } from "@/lib/data";
 import { EXCLUDED_REASON_TEXT, faq, howToSteps, modelTitle, oneLineAnswer } from "@/lib/model-copy";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
@@ -42,30 +44,6 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   };
 }
 
-const CATEGORY_LABEL: Record<Category, string> = {
-  ads: "Ads",
-  telemetry: "Telemetry",
-  preinstalled_app: "Preinstalled app",
-  system_risky: "System",
-};
-
-const BADGE: Record<SafeToDisable, { label: string; className: string }> = {
-  yes: { label: "Safe", className: "bg-green-100 text-green-800" },
-  caution: { label: "Caution", className: "bg-amber-100 text-amber-900" },
-  no: { label: "Keep", className: "bg-red-100 text-red-800" },
-};
-
-const ROW: Record<SafeToDisable, string> = {
-  yes: "",
-  caution: "bg-amber-50",
-  no: "bg-red-50",
-};
-
-function Badge({ safe }: { safe: SafeToDisable }) {
-  const b = BADGE[safe];
-  return <span className={`inline-block rounded px-2 py-0.5 text-xs font-semibold ${b.className}`}>{b.label}</span>;
-}
-
 function Description({ p }: { p: RatedPackage }) {
   return (
     p.description ?? (
@@ -84,7 +62,7 @@ function PackageTable({ packages }: { packages: RatedPackage[] }) {
       <ul className="mt-4 divide-y divide-neutral-200 rounded-md border border-neutral-200 sm:hidden">
         {packages.map((p) => (
           <li key={p.id} className={`px-3 py-3 text-sm ${ROW[p.safe]}`}>
-            <div className="font-mono text-xs break-all">{p.id}</div>
+            <PackageLink id={p.id} className="font-mono text-xs break-all underline" />
             <div className="mt-1 flex flex-wrap items-center gap-2">
               <Badge safe={p.safe} />
               <span className="text-neutral-600">{CATEGORY_LABEL[p.category]}</span>
@@ -115,7 +93,9 @@ function WideTable({ packages }: { packages: RatedPackage[] }) {
         <tbody>
           {packages.map((p) => (
             <tr key={p.id} className={`border-t border-neutral-200 align-top ${ROW[p.safe]}`}>
-              <td className="px-3 py-2 font-mono text-xs break-all">{p.id}</td>
+              <td className="px-3 py-2 font-mono text-xs break-all">
+                <PackageLink id={p.id} className="underline" />
+              </td>
               <td className="px-3 py-2 whitespace-nowrap">{CATEGORY_LABEL[p.category]}</td>
               <td className="px-3 py-2">
                 <Badge safe={p.safe} />
@@ -145,22 +125,17 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
     .filter((m) => m.slug !== model.slug)
     .sort((a, b) => shortName(a).localeCompare(shortName(b)));
   const questions = faq(model);
-  const brandPath = `/brand/${model.brand_slug}/`;
+  const trail = [
+    { name: model.brand_display, path: brandPath(model.brand_slug) },
+    { name, path: modelPath(model) },
+  ];
   const pagePath = modelPath(model);
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-8">
       <JsonLd
         data={[
-          {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: SITE_NAME, item: absoluteUrl("/") },
-              { "@type": "ListItem", position: 2, name: model.brand_display, item: absoluteUrl(brandPath) },
-              { "@type": "ListItem", position: 3, name, item: absoluteUrl(pagePath) },
-            ],
-          },
+          breadcrumbJsonLd(trail),
           {
             "@context": "https://schema.org",
             "@type": "HowTo",
@@ -187,17 +162,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
         ]}
       />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-neutral-600">
-        <ol className="flex flex-wrap gap-1">
-          <li>
-            <Link href="/" className="underline">{SITE_NAME}</Link> /
-          </li>
-          <li>
-            <Link href={brandPath} className="underline">{model.brand_display}</Link> /
-          </li>
-          <li aria-current="page">{name}</li>
-        </ol>
-      </nav>
+      <Breadcrumbs trail={trail} />
 
       <h1 className="mt-4 text-2xl font-semibold tracking-tight sm:text-3xl">{title}</h1>
       <p className="mt-4 text-lg text-neutral-800">{oneLineAnswer(model, packages)}</p>
@@ -224,7 +189,7 @@ export default async function ModelPage({ params }: { params: Promise<Params> })
           <ul className="mt-2 space-y-1 text-sm text-neutral-700">
             {model.excluded_packages.map((e) => (
               <li key={e.id}>
-                <span className="font-mono text-xs break-all">{e.id}</span>: {EXCLUDED_REASON_TEXT[e.reason]}
+                <PackageLink id={e.id} className="font-mono text-xs break-all underline" />: {EXCLUDED_REASON_TEXT[e.reason]}
               </li>
             ))}
           </ul>

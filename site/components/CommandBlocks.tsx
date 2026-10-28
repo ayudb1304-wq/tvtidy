@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { disableCommand, restoreCommand } from "@/lib/commands";
 
-function CodeBlock({ id, label, lines, empty }: { id: string; label: string; lines: string[]; empty: string }) {
+export function CodeBlock({ id, label, lines, empty }: { id: string; label: string; lines: string[]; empty: string }) {
   const [copied, setCopied] = useState(false);
   const text = lines.join("\n");
 

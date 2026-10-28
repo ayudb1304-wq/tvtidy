@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "remove-ads-google-tv",
+    "title": "How to remove ads from the Google TV home screen",
+    "description": "Turn on Apps only mode, change the screensaver and disable Android's ad services to clear most ads from the Google TV home screen, and what stays.",
+    "symptom": "The Google TV home screen shows a large sponsored banner and rows of recommendations you didn't ask for.",
+    "steps": [
+      {
+        "name": "Turn on Apps only mode",
+        "text": "Open Settings, then Accounts & Sign In (Accounts & profiles on some TVs), pick your Google account and turn on Apps only mode. The home screen then shows your apps instead of personalised recommendations. It also turns off features that need your account, such as the watchlist. Menu names vary by TV maker and firmware."
+      },
+      {
+        "name": "Change the screensaver",
+        "text": "Ambient Mode can show promoted films and shows. In Settings, under System, open Ambient mode or Screen saver and pick Photo frame or another screensaver. After that you can disable the Ambient Mode package without losing a screensaver."
+      },
+      {
+        "name": "Disable the ad and partner services",
+        "text": "Open your TV's page on TVTidy. It lists Android's ad services, partner attribution, auto-installs and your TV maker's promo rows, with copy-paste commands and a restore block."
+      },
+      {
+        "name": "Know what stays",
+        "text": "The sponsored banner is drawn by the Google TV home app itself. Disabling that app without installing another launcher leaves the TV with no home screen, so TVTidy never does it. Replacing the launcher is the only way to remove the banner completely."
+      }
+    ],
+    "packages": [
+      "com.android.adservices.api",
+      "com.android.ondevicepersonalization.services",
+      "com.google.android.partnersetup",
+      "android.autoinstalls.config.google.gtvpai",
+      "com.google.android.apps.tv.dreamx",
+      "com.google.android.tvrecommendations"
+    ]
+  },
+  {
+    "slug": "debloat-without-coding-agent",
+    "title": "How to debloat an Android TV without a coding agent",
+    "description": "Disable preinstalled apps and ads on an Android TV without an AI coding agent or scripts: from the TV's own Settings, or with tested per-model commands and a restore block.",
+    "symptom": "You saw the before-and-after posts but don't want to set up an AI coding agent or write scripts.",
+    "steps": [
+      {
+        "name": "Try the TV's own Settings first",
+        "text": "Many preinstalled apps can be disabled on the TV itself: open Settings, then Apps, See all apps, Show system apps, pick the app and choose Disable. No computer is needed. Some system packages hide the Disable button; those need ADB."
+      },
+      {
+        "name": "Find your TV's tested list",
+        "text": "Search for your model on TVTidy. Its page lists the packages owners of that TV have disabled and lived with, what each one does, and which ones need care."
+      },
+      {
+        "name": "Save the restore block",
+        "text": "Copy the restore block from the model page and keep it. It turns every package back on if something you use stops working."
+      },
+      {
+        "name": "Run the commands",
+        "text": "Turn on Developer options and network debugging on the TV, install Android platform-tools on a computer, run adb connect with the TV's IP address, then paste the disable block. Nothing is uninstalled."
+      },
+      {
+        "name": "Or wait for the helper",
+        "text": "The TVTidy desktop helper (coming soon) finds the TV, previews the list, saves a restore file and applies it in one click."
+      }
+    ],
+    "packages": [
+      "com.google.android.feedback",
+      "com.google.android.partnersetup",
+      "com.android.adservices.api",
+      "com.android.tv.feedbackconsent",
+      "com.google.android.tv.bugreportsender"
+    ]
+  },
+  {
+    "slug": "undo-tv-debloat",
+    "title": "How to undo a TV debloat",
+    "description": "Turn disabled apps back on after an Android TV debloat: one package, the whole list, or from the TV's own Settings, without a factory reset.",
+    "symptom": "Something stopped working after you disabled apps on your Android TV, or you want everything back.",
+    "steps": [
+      {
+        "name": "Connect with ADB again",
+        "text": "Turn network debugging back on if an update turned it off, then run adb connect with the TV's IP address."
+      },
+      {
+        "name": "Re-enable one package",
+        "text": "Run adb shell pm enable --user 0 followed by the package name. If you know which feature broke, start with the package that runs it; each model page says what its packages do."
+      },
+      {
+        "name": "Re-enable the whole list",
+        "text": "Paste the restore block from your TV's page. It re-enables every package that page's disable block turns off."
+      },
+      {
+        "name": "Leave factory-disabled apps alone",
+        "text": "adb shell pm list packages -d lists every disabled package, including some that came disabled from the factory. Re-enable only the ones you disabled."
+      },
+      {
+        "name": "No computer? Use Settings",
+        "text": "On the TV, open Settings, then Apps, See all apps, Show system apps, pick the app and choose Enable. A factory reset also re-enables everything, but it erases your apps and settings."
+      }
+    ],
+    "packages": []
+  },
+  {
+    "slug": "apps-came-back-after-update",
+    "title": "Apps came back after a firmware update on Android TV",
+    "description": "Why ads and apps you disabled can return after an Android TV firmware update, how to check what came back, and how to disable them again.",
+    "symptom": "After a system update, ads, promo rows or apps you disabled are back.",
+    "steps": [
+      {
+        "name": "Why it happens",
+        "text": "A firmware update can reset which system apps are disabled. Some TV makers also turn their own packages back on at every boot; owners report this for TCL's account and Alexa services on some models."
+      },
+      {
+        "name": "Check what came back",
+        "text": "Connect with ADB and run adb shell pm list packages -d to see what is still disabled, then compare it with your TV's list."
+      },
+      {
+        "name": "Disable them again",
+        "text": "Paste the disable block from your TV's page again. Packages that are still disabled are not affected."
+      },
+      {
+        "name": "Check whether the list changed",
+        "text": "An update can add or rename packages. Your TV's page shows when its community list last changed."
+      },
+      {
+        "name": "Get told next time",
+        "text": "Firmware Watch (coming soon) emails you when your model's list changes or owners report that an update turned apps back on."
+      }
+    ],
+    "packages": [
+      "com.tcl.usercenter",
+      "com.tcl.smartalexa",
+      "com.google.android.tvrecommendations"
+    ]
+  }
+]

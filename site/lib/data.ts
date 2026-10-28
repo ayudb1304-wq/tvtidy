@@ -108,10 +108,43 @@ export function modelsForBrand(brand: string): Model[] {
   return getModels().filter((m) => m.brand_slug === brand);
 }
 
-/** "Acer AR55AR2851UDPRO 55\" (SCBC R4, Realtek rtd2851m), India" becomes "Acer AR55AR2851UDPRO 55\"". */
-export function shortName(model: Pick<Model, "display_name">): string {
-  const short = model.display_name.split(" (")[0].replace(/[,;:\s]+$/, "").trim();
-  return short || model.display_name;
+function baseName(displayName: string): string {
+  return displayName.split(" (")[0].replace(/[,;:\s]+$/, "").trim() || displayName;
+}
+
+let shortNames: Map<string, string> | undefined;
+/**
+ * The model's name without the details in parentheses: "Acer AR55AR2851UDPRO 55\" (SCBC R4, Realtek
+ * rtd2851m), India" becomes "Acer AR55AR2851UDPRO 55\"". When two models would share a name, the first
+ * detail in parentheses is added ("OnePlus TV (Dosa)"), then the OS, then the full name.
+ */
+export function shortName(model: Pick<Model, "slug" | "display_name" | "os_raw">): string {
+  if (!shortNames) {
+    const models = getModels();
+    const firstDetail = (m: Model) => m.display_name.match(/\(([^,)]+)/)?.[1].trim();
+    const candidates: ((m: Model) => string)[] = [
+      (m) => baseName(m.display_name),
+      (m) => (firstDetail(m) ? `${baseName(m.display_name)} (${firstDetail(m)})` : m.display_name),
+      (m) => `${baseName(m.display_name)}, ${m.os_raw}`,
+      (m) => m.display_name,
+    ];
+    shortNames = new Map();
+    let pending = models;
+    for (const candidate of candidates) {
+      const counts = new Map<string, number>();
+      for (const m of pending) counts.set(candidate(m), (counts.get(candidate(m)) ?? 0) + 1);
+      const taken = new Set(shortNames.values());
+      const next: Model[] = [];
+      for (const m of pending) {
+        const name = candidate(m);
+        if (counts.get(name) === 1 && !taken.has(name)) shortNames.set(m.slug, name);
+        else next.push(m);
+      }
+      pending = next;
+    }
+    for (const m of pending) shortNames.set(m.slug, m.display_name);
+  }
+  return shortNames.get(model.slug) ?? baseName(model.display_name);
 }
 
 export interface RatedPackage extends ModelPackage {
@@ -141,4 +174,83 @@ export function upstreamFileUrl(model: Model): string {
 
 export function upstreamCommitUrl(model: Model): string {
   return `${UPSTREAM_REPO}/commit/${model.upstream_commit}`;
+}
+
+export const getAllPackages = (): Package[] => load<Package[]>("packages.json");
+
+/** A package page is indexed only when it has a hand-written override; the rest stay noindex. */
+export const isPackageIndexed = (p: Package): boolean => p.category_source === "override";
+
+export function packagePath(id: string): string {
+  return `/package/${id}/`;
+}
+
+let packageModels: Map<string, { active: Model[]; kept: Model[] }> | undefined;
+/** Models whose upstream list disables the package (active or excluded), and models that keep it. */
+export function modelsForPackage(id: string): { active: Model[]; kept: Model[] } {
+  if (!packageModels) {
+    packageModels = new Map();
+    const entry = (pkg: string) => {
+      if (!packageModels!.has(pkg)) packageModels!.set(pkg, { active: [], kept: [] });
+      return packageModels!.get(pkg)!;
+    };
+    for (const m of getModels()) {
+      for (const p of [...m.packages, ...m.excluded_packages]) entry(p.id).active.push(m);
+      for (const p of m.kept_packages) entry(p.id).kept.push(m);
+    }
+  }
+  return packageModels.get(id) ?? { active: [], kept: [] };
+}
+
+export function brandPath(slug: string): string {
+  return `/brand/${slug}/`;
+}
+
+/** The most common packages across a brand's lists, most frequent first. */
+export function topPackagesForBrand(brand: string, limit: number): { pkg: Package; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const m of modelsForBrand(brand)) {
+    for (const p of m.packages) counts.set(p.id, (counts.get(p.id) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit)
+    .map(([id, count]) => ({ pkg: getPackage(id)!, count }));
+}
+
+export interface FixStep {
+  name: string;
+  text: string;
+}
+
+export interface Fix {
+  slug: string;
+  title: string;
+  description: string;
+  symptom: string;
+  steps: FixStep[];
+  /** Packages this fix disables or discusses; each must exist in packages.json. */
+  packages: string[];
+}
+
+const FIXES_FILE = path.join(process.cwd(), "..", "data", "fixes.json");
+let fixes: Fix[] | undefined;
+export function getFixes(): Fix[] {
+  fixes ??= JSON.parse(readFileSync(FIXES_FILE, "utf8")) as Fix[];
+  return fixes;
+}
+
+export function fixPath(slug: string): string {
+  return `/fix/${slug}/`;
+}
+
+/** Models whose lists contain the most of the given packages: "the 5 most common models in the fix". */
+export function topModelsForPackages(ids: string[], limit: number): Model[] {
+  const wanted = new Set(ids);
+  return getModels()
+    .map((m) => ({ m, n: m.packages.filter((p) => wanted.has(p.id)).length }))
+    .filter((x) => x.n > 0)
+    .sort((a, b) => b.n - a.n || a.m.slug.localeCompare(b.m.slug))
+    .slice(0, limit)
+    .map((x) => x.m);
 }

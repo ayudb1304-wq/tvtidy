@@ -99,3 +99,41 @@ Decisions Claude Code made that CLAUDE.md did not cover.
 - **Lighthouse (mobile, local static server) on `/tv/xiaomi/mi-tv-4a/`:** SEO 100, accessibility
   100, best practices 96 (the brand 404), performance 81 (LCP 3.8 s). The page carries about 100 KB of
   HTML plus the RSC payload; worth trimming before launch.
+
+## Session 4 (package, brand and fix pages), 2026-10-28
+
+- **The top 50 overrides were approved and applied** (`data/overrides/packages.json`; evidence in
+  `docs/overrides-review.md`): 27 safe, 23 caution.
+- **Every package gets a page (1,495), but only the 50 with an override are indexed.** The rest are
+  `noindex, follow` and left out of the sitemap, so search engines don't see 1,445 thin
+  "Unverified" pages. Model pages can still link to every package. A page becomes indexable as soon
+  as its package gets an override (`isPackageIndexed` in `site/lib/data.ts`). The kit's week-2 rule
+  decides how far to expand.
+- **Package links are plain `<a>` tags (`components/PackageLink.tsx`), not `next/link`.** Next drops
+  the trailing slash from a path whose last segment has a dot (`/package/com.vendor.app/`), so the
+  links wouldn't match the canonical URLs and the sitemap. Cloudflare Pages should serve
+  `/package/<id>/` from `package/<id>/index.html`. Check one package URL after the first deploy,
+  since that path shape is the one place the export could behave differently on Pages.
+- **Package pages never show a disable command for a `no` package**, but always show the restore
+  command. Someone who disabled a stock launcher by hand can find how to undo it.
+- **Brand pages** list every model (with OS, safe and caution counts, and list date), the 10 most
+  common packages on that brand's lists with a restore command and a `/safety` link (CLAUDE.md: any
+  page listing packages), and the fixes.
+- **Fixes live in `data/fixes.json`**: `slug, title, description, symptom, steps[{name, text}],
+  packages[]`. That is the kit's section 3 shape plus `description` (meta) and `packages` (which drive
+  "TVs this applies to most", the 5 models whose lists contain most of them). There are 4 so far,
+  from the kit's first-50 list: remove-ads-google-tv, debloat-without-coding-agent, undo-tv-debloat
+  and apps-came-back-after-update. Fix pages show a restore block for their packages but no disable
+  block, and point to the model page for that, because the right set depends on the TV.
+- **Fix content worth checking on a real TV:** the Google TV "Apps only mode" path (Settings,
+  Accounts & Sign In, your account) and the Settings > Apps > Show system apps > Disable path. Both are
+  written with "names vary by firmware".
+- **Short model names are unique.** 11 names were shared by 28 models (for example three "OnePlus TV").
+  For those, `shortName` adds the first detail in parentheses ("OnePlus TV (Dosa)"), then the OS,
+  then falls back to the full name. All page titles are unique (checked on the export).
+- **The home page** now has an H1, the brand list and the fixes, so every brand and fix page has
+  inbound links. Checked on the export: 0 broken internal links. Every model, brand and fix page has
+  6+ inbound links, and indexed package pages have 29+.
+- **Lighthouse (mobile):** SEO 100 and accessibility 100 on `/brand/xiaomi/`,
+  `/fix/remove-ads-google-tv/` and `/package/com.google.android.feedback/`.
+- **Build:** 1,945 pages, 3,906 files (limit 20,000), largest file 310 KB, about 41 s.
