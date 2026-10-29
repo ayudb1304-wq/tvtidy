@@ -167,11 +167,16 @@
   {
     "slug": "hotack",
     "display_name": "HOTACK",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "hy320",
     "display_name": "HY320",
+    "model_count": 1
+  },
+  {
+    "slug": "impex",
+    "display_name": "Impex",
     "model_count": 1
   },
   {
@@ -210,6 +215,11 @@
     "model_count": 2
   },
   {
+    "slug": "koryo",
+    "display_name": "Koryo",
+    "model_count": 1
+  },
+  {
     "slug": "ktc",
     "display_name": "KTC",
     "model_count": 1
@@ -227,11 +237,16 @@
   {
     "slug": "magcubic",
     "display_name": "Magcubic",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "master-g",
     "display_name": "Master-G",
+    "model_count": 1
+  },
+  {
+    "slug": "mecool",
+    "display_name": "MECOOL",
     "model_count": 1
   },
   {
@@ -325,6 +340,11 @@
     "model_count": 1
   },
   {
+    "slug": "prosonic",
+    "display_name": "Prosonic",
+    "model_count": 1
+  },
+  {
     "slug": "rca",
     "display_name": "RCA",
     "model_count": 3
@@ -362,7 +382,7 @@
   {
     "slug": "sharp",
     "display_name": "SHARP",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "siragon",
@@ -372,7 +392,7 @@
   {
     "slug": "skyworth",
     "display_name": "Skyworth",
-    "model_count": 14
+    "model_count": 15
   },
   {
     "slug": "sony",
@@ -462,6 +482,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 32
+    "model_count": 34
   }
 ]

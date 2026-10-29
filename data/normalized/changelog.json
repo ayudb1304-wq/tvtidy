@@ -1,7 +1,18 @@
 {
-  "from_commit": null,
-  "to_commit": "095b71ad93d99ea28d94d97b06385709d354b795",
-  "models_added": [],
+  "from_commit": "095b71ad93d99ea28d94d97b06385709d354b795",
+  "to_commit": "985bbd14d0b01517988724668e310211d72d86fc",
+  "models_added": [
+    "coocaa-p9-projector",
+    "hotack-l018",
+    "impex-evoq-4k",
+    "koryo-smart-tv-hi3751v553",
+    "magcubic-hy300-pro-plus",
+    "mecool-km2-plus",
+    "prosonic-bodrum-finch",
+    "sharp-2k-eu",
+    "xiaomi-f2-fire-tv-aftma2857f",
+    "xiaomi-mitv-moor0"
+  ],
   "models_removed": [],
   "packages_changed": []
 }
