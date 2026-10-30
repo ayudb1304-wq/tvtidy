@@ -197,7 +197,7 @@
   {
     "slug": "jvc",
     "display_name": "JVC",
-    "model_count": 4
+    "model_count": 5
   },
   {
     "slug": "kalley",
@@ -317,7 +317,7 @@
   {
     "slug": "philips",
     "display_name": "Philips",
-    "model_count": 18
+    "model_count": 19
   },
   {
     "slug": "polytron",
@@ -382,7 +382,7 @@
   {
     "slug": "sharp",
     "display_name": "SHARP",
-    "model_count": 6
+    "model_count": 7
   },
   {
     "slug": "siragon",
@@ -397,7 +397,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 40
+    "model_count": 41
   },
   {
     "slug": "stellamore",
@@ -412,7 +412,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 76
+    "model_count": 77
   },
   {
     "slug": "tele-system",

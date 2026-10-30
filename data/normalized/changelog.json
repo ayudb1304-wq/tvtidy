@@ -1,18 +1,66 @@
 {
-  "from_commit": "095b71ad93d99ea28d94d97b06385709d354b795",
-  "to_commit": "985bbd14d0b01517988724668e310211d72d86fc",
+  "from_commit": "985bbd14d0b01517988724668e310211d72d86fc",
+  "to_commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa",
   "models_added": [
-    "coocaa-p9-projector",
-    "hotack-l018",
-    "impex-evoq-4k",
-    "koryo-smart-tv-hi3751v553",
-    "magcubic-hy300-pro-plus",
-    "mecool-km2-plus",
-    "prosonic-bodrum-finch",
-    "sharp-2k-eu",
-    "xiaomi-f2-fire-tv-aftma2857f",
-    "xiaomi-mitv-moor0"
+    "jvc-4k-smart-tv-elliniko",
+    "philips-55pos9002",
+    "sharp-aquos-tvx19b",
+    "sony-kd-49x8000g-hk",
+    "tcl-65p615"
   ],
   "models_removed": [],
-  "packages_changed": []
+  "packages_changed": [
+    {
+      "slug": "philips-google-tv-ta1",
+      "added": [
+        "com.android.adservices.api",
+        "com.android.federatedcompute.services",
+        "com.android.ondevicepersonalization.services",
+        "com.android.printspooler",
+        "com.android.tv.feedbackconsent",
+        "com.google.android.apps.tv.dreamx",
+        "com.mediatek.AirplayAPK",
+        "com.tpv.screenshotshare",
+        "io.mimi.sdk.service",
+        "org.droidtv.calmancalibrator",
+        "org.droidtv.hidwizard",
+        "org.droidtv.matter",
+        "org.droidtv.multiview",
+        "org.droidtv.personalisedsound",
+        "org.droidtv.sunrise"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "sony-bravia-4k-vh1",
+      "added": [],
+      "removed": [
+        "com.youview.poa"
+      ]
+    },
+    {
+      "slug": "sony-bravia-4k-vh21",
+      "added": [
+        "com.sony.dtv.customersupport",
+        "com.sony.dtv.distancealert",
+        "com.sony.dtv.ecodashboard",
+        "com.sony.dtv.helpguidecontents",
+        "com.sony.dtv.livingfit",
+        "com.sony.dtv.seeds.auth",
+        "com.sony.dtv.seeds.iot.remotestart",
+        "com.sony.dtv.sensingcamera.fwupdate",
+        "com.sony.dtv.sensingcamera.settings",
+        "com.sony.dtv.smarthelp",
+        "com.sony.dtv.sonybugreportsys"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "tornado-65ua1400e",
+      "added": [
+        "com.smartdevice.speedchannels"
+      ],
+      "removed": []
+    }
+  ]
 }
