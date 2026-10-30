@@ -1,64 +1,76 @@
 {
-  "from_commit": "985bbd14d0b01517988724668e310211d72d86fc",
-  "to_commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa",
+  "from_commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa",
+  "to_commit": "fe9ad3204b945d3aadfb6876ee6ea78c20a1fe73",
   "models_added": [
-    "jvc-4k-smart-tv-elliniko",
-    "philips-55pos9002",
-    "sharp-aquos-tvx19b",
-    "sony-kd-49x8000g-hk",
-    "tcl-65p615"
+    "acer-ar3-r3",
+    "amazon-fire-tv-stick-2020",
+    "benq-qs02",
+    "dexp-a651",
+    "hikeen-smart-rtd285o",
+    "hisense-65e5h",
+    "hisense-hismart-2k-atv4-hamamatsucho",
+    "hisense-u7-wutaishan",
+    "jvc-lt-43km4584",
+    "master-g-2k-atv-martin",
+    "philips-65oled807",
+    "philips-77oled810",
+    "prismplus-p4ka-sw6h",
+    "salora-smart24tv",
+    "semp-tcl-50p8m",
+    "sharp-aquos-tve19c",
+    "sony-bravia-vu2",
+    "telekom-tv-sdmc-dv8519b",
+    "xgimi-horizon-20",
+    "xiaomi-mitv-axso1"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "philips-google-tv-ta1",
+      "slug": "oneplus-tv-dubai",
       "added": [
-        "com.android.adservices.api",
-        "com.android.federatedcompute.services",
-        "com.android.ondevicepersonalization.services",
-        "com.android.printspooler",
-        "com.android.tv.feedbackconsent",
-        "com.google.android.apps.tv.dreamx",
-        "com.mediatek.AirplayAPK",
-        "com.tpv.screenshotshare",
-        "io.mimi.sdk.service",
-        "org.droidtv.calmancalibrator",
-        "org.droidtv.hidwizard",
-        "org.droidtv.matter",
-        "org.droidtv.multiview",
-        "org.droidtv.personalisedsound",
-        "org.droidtv.sunrise"
+        "com.google.android.play.games",
+        "com.heytap.tv.remotediagnosing",
+        "com.jio.web.androidtv",
+        "com.oneplus.tv.userguide"
       ],
       "removed": []
     },
     {
-      "slug": "sony-bravia-4k-vh1",
+      "slug": "panasonic-kowloon",
+      "added": [
+        "com.android.adservices.api",
+        "com.android.ondevicepersonalization.services",
+        "com.google.android.feedback",
+        "com.vestel.vestelreporter",
+        "fusion.android.tv.demo"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "skyworth-7t861-a23",
       "added": [],
       "removed": [
-        "com.youview.poa"
+        "com.coocaa.app_browser",
+        "com.coocaa.factory",
+        "com.coocaa.guide",
+        "com.coocaa.theme_package_ccos_nine",
+        "com.coocaa.tvmanager",
+        "com.coocaa.tvpitv",
+        "com.loostone.tuning",
+        "com.skyworth.performance.monitors",
+        "com.skyworth.skymarket",
+        "com.skyworth.testtime",
+        "com.skyworthdigital.stb.dataprovider",
+        "com.tianci.appstore",
+        "com.tianci.de",
+        "com.tianci.movieplatform",
+        "com.tianci.user"
       ]
     },
     {
-      "slug": "sony-bravia-4k-vh21",
+      "slug": "xiaomi-mitv-mooq0",
       "added": [
-        "com.sony.dtv.customersupport",
-        "com.sony.dtv.distancealert",
-        "com.sony.dtv.ecodashboard",
-        "com.sony.dtv.helpguidecontents",
-        "com.sony.dtv.livingfit",
-        "com.sony.dtv.seeds.auth",
-        "com.sony.dtv.seeds.iot.remotestart",
-        "com.sony.dtv.sensingcamera.fwupdate",
-        "com.sony.dtv.sensingcamera.settings",
-        "com.sony.dtv.smarthelp",
-        "com.sony.dtv.sonybugreportsys"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "tornado-65ua1400e",
-      "added": [
-        "com.smartdevice.speedchannels"
+        "com.xiaomi.tvqs.overseas"
       ],
       "removed": []
     }

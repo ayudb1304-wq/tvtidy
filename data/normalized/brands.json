@@ -2,7 +2,7 @@
   {
     "slug": "acer",
     "display_name": "Acer",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "aipro2k",
@@ -22,7 +22,7 @@
   {
     "slug": "amazon-fire-tv",
     "display_name": "Amazon Fire TV",
-    "model_count": 7
+    "model_count": 8
   },
   {
     "slug": "anker-nebula",
@@ -52,7 +52,7 @@
   {
     "slug": "benq",
     "display_name": "BenQ",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "bgh",
@@ -92,6 +92,11 @@
   {
     "slug": "dcolor",
     "display_name": "Dcolor",
+    "model_count": 1
+  },
+  {
+    "slug": "dexp",
+    "display_name": "DEXP",
     "model_count": 1
   },
   {
@@ -150,9 +155,14 @@
     "model_count": 3
   },
   {
+    "slug": "hikeen",
+    "display_name": "Hikeen",
+    "model_count": 1
+  },
+  {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 11
+    "model_count": 14
   },
   {
     "slug": "hitachi",
@@ -197,7 +207,7 @@
   {
     "slug": "jvc",
     "display_name": "JVC",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "kalley",
@@ -240,9 +250,14 @@
     "model_count": 2
   },
   {
+    "slug": "magyar-telekom",
+    "display_name": "Magyar Telekom",
+    "model_count": 1
+  },
+  {
     "slug": "master-g",
     "display_name": "Master-G",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "mecool",
@@ -317,7 +332,7 @@
   {
     "slug": "philips",
     "display_name": "Philips",
-    "model_count": 19
+    "model_count": 21
   },
   {
     "slug": "polytron",
@@ -337,7 +352,7 @@
   {
     "slug": "prism",
     "display_name": "PRISM+",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "prosonic",
@@ -358,6 +373,11 @@
     "slug": "rocktek",
     "display_name": "RockTek",
     "model_count": 2
+  },
+  {
+    "slug": "salora",
+    "display_name": "Salora",
+    "model_count": 1
   },
   {
     "slug": "sankey",
@@ -382,7 +402,7 @@
   {
     "slug": "sharp",
     "display_name": "SHARP",
-    "model_count": 7
+    "model_count": 8
   },
   {
     "slug": "siragon",
@@ -397,7 +417,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 41
+    "model_count": 42
   },
   {
     "slug": "stellamore",
@@ -412,7 +432,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 77
+    "model_count": 78
   },
   {
     "slug": "tele-system",
@@ -477,11 +497,11 @@
   {
     "slug": "xgimi",
     "display_name": "XGIMI",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 34
+    "model_count": 35
   }
 ]
