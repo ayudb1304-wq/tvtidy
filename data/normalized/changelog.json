@@ -1,76 +1,106 @@
 {
-  "from_commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa",
-  "to_commit": "fe9ad3204b945d3aadfb6876ee6ea78c20a1fe73",
+  "from_commit": "fe9ad3204b945d3aadfb6876ee6ea78c20a1fe73",
+  "to_commit": "1937c8048672d4c322e70fe805bda1175f546716",
   "models_added": [
-    "acer-ar3-r3",
-    "amazon-fire-tv-stick-2020",
-    "benq-qs02",
-    "dexp-a651",
-    "hikeen-smart-rtd285o",
-    "hisense-65e5h",
-    "hisense-hismart-2k-atv4-hamamatsucho",
-    "hisense-u7-wutaishan",
-    "jvc-lt-43km4584",
-    "master-g-2k-atv-martin",
-    "philips-65oled807",
-    "philips-77oled810",
-    "prismplus-p4ka-sw6h",
-    "salora-smart24tv",
-    "semp-tcl-50p8m",
-    "sharp-aquos-tve19c",
-    "sony-bravia-vu2",
-    "telekom-tv-sdmc-dv8519b",
-    "xgimi-horizon-20",
-    "xiaomi-mitv-axso1"
+    "acer-ar32hdigu2841at",
+    "amazon-fire-tv-stick-4k-max-2023",
+    "artel-43d1200b",
+    "bell-fibe-tv-vip7802",
+    "formovie-xming-page-one-tianshan",
+    "haier-hra962x2",
+    "haier-matrixtv-de",
+    "lyncast-x3aq",
+    "sharp-85hp5465e",
+    "sony-bravia-4k-vh21-tw",
+    "sony-xr-85x90l-cn",
+    "tcl-65mqled80-google-tv",
+    "tcl-75a300-pro",
+    "tdsystems-ch17f40s-redwood",
+    "toshiba-55m550lp",
+    "xgimi-rs10-ultra",
+    "xiaomi-mitv-mosr1",
+    "xiaomi-mitv4i-magnolia"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "oneplus-tv-dubai",
-      "added": [
-        "com.google.android.play.games",
-        "com.heytap.tv.remotediagnosing",
-        "com.jio.web.androidtv",
-        "com.oneplus.tv.userguide"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "panasonic-kowloon",
+      "slug": "kalley-r10g",
       "added": [
         "com.android.adservices.api",
+        "com.android.federatedcompute.services",
         "com.android.ondevicepersonalization.services",
-        "com.google.android.feedback",
-        "com.vestel.vestelreporter",
-        "fusion.android.tv.demo"
+        "com.android.tv.feedbackconsent",
+        "com.apps.wifihotspot",
+        "com.iqiyi.i18n.tv",
+        "com.mercadolibre.android.mplay_tv",
+        "com.realtek.leanbacklauncher.partnercustomizer"
       ],
       "removed": []
     },
     {
-      "slug": "skyworth-7t861-a23",
-      "added": [],
+      "slug": "panavox-google-tv",
+      "added": [
+        "com.google.android.apps.tv.dreamx",
+        "fusion.android.tv.demo",
+        "tv.anoki.acr.anokiacroptin"
+      ],
       "removed": [
-        "com.coocaa.app_browser",
-        "com.coocaa.factory",
-        "com.coocaa.guide",
-        "com.coocaa.theme_package_ccos_nine",
-        "com.coocaa.tvmanager",
-        "com.coocaa.tvpitv",
-        "com.loostone.tuning",
-        "com.skyworth.performance.monitors",
-        "com.skyworth.skymarket",
-        "com.skyworth.testtime",
-        "com.skyworthdigital.stb.dataprovider",
-        "com.tianci.appstore",
-        "com.tianci.de",
-        "com.tianci.movieplatform",
-        "com.tianci.user"
+        "com.amazon.amazonvideo.livingroom"
       ]
     },
     {
-      "slug": "xiaomi-mitv-mooq0",
+      "slug": "philips-50pud7406",
       "added": [
-        "com.xiaomi.tvqs.overseas"
+        "android.autoinstalls.config.tpv.device",
+        "com.google.android.feedback",
+        "com.google.android.onetimeinitializer",
+        "com.google.android.partnersetup",
+        "com.google.android.syncadapters.calendar"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "philips-55pus7503",
+      "added": [
+        "com.google.android.partnersetup",
+        "org.droidtv.candeebug",
+        "org.droidtv.gel",
+        "org.droidtv.tv.frameworklogger",
+        "tv.inscape.tvclient.inscapeacr"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "skyworth-swtv-22ae-fhd",
+      "added": [],
+      "removed": [
+        "com.smartdevice.dailymanage",
+        "com.smartdevice.dailyshortcut",
+        "com.smartdevice.myapp"
+      ]
+    },
+    {
+      "slug": "sony-bravia-vu1",
+      "added": [
+        "android.autoinstalls.config.Sony.BRAVIA_VU1",
+        "com.google.android.play.games"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "sony-bravia-vu2",
+      "added": [
+        "com.google.android.videos"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "tcl-55p7k",
+      "added": [
+        "com.android.printspooler",
+        "com.google.android.onetimeinitializer",
+        "com.google.android.play.games",
+        "com.google.android.syncadapters.calendar"
       ],
       "removed": []
     }

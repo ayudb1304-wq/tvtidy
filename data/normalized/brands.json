@@ -2,7 +2,7 @@
   {
     "slug": "acer",
     "display_name": "Acer",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "aipro2k",
@@ -22,7 +22,7 @@
   {
     "slug": "amazon-fire-tv",
     "display_name": "Amazon Fire TV",
-    "model_count": 8
+    "model_count": 9
   },
   {
     "slug": "anker-nebula",
@@ -37,7 +37,7 @@
   {
     "slug": "artel",
     "display_name": "Artel",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "asus",
@@ -47,6 +47,11 @@
   {
     "slug": "beko",
     "display_name": "Beko",
+    "model_count": 1
+  },
+  {
+    "slug": "bell-canada",
+    "display_name": "Bell Canada",
     "model_count": 1
   },
   {
@@ -127,7 +132,7 @@
   {
     "slug": "formovie",
     "display_name": "Formovie",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "freebox",
@@ -152,7 +157,7 @@
   {
     "slug": "haier",
     "display_name": "Haier",
-    "model_count": 3
+    "model_count": 5
   },
   {
     "slug": "hikeen",
@@ -242,6 +247,11 @@
   {
     "slug": "lumio",
     "display_name": "Lumio",
+    "model_count": 1
+  },
+  {
+    "slug": "lyncast",
+    "display_name": "LYNCAST",
     "model_count": 1
   },
   {
@@ -402,7 +412,7 @@
   {
     "slug": "sharp",
     "display_name": "SHARP",
-    "model_count": 8
+    "model_count": 9
   },
   {
     "slug": "siragon",
@@ -417,7 +427,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 42
+    "model_count": 44
   },
   {
     "slug": "stellamore",
@@ -432,7 +442,12 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 78
+    "model_count": 80
+  },
+  {
+    "slug": "td-systems",
+    "display_name": "TD Systems",
+    "model_count": 1
   },
   {
     "slug": "tele-system",
@@ -457,7 +472,7 @@
   {
     "slug": "toshiba",
     "display_name": "Toshiba",
-    "model_count": 3
+    "model_count": 4
   },
   {
     "slug": "turkcell",
@@ -497,11 +512,11 @@
   {
     "slug": "xgimi",
     "display_name": "XGIMI",
-    "model_count": 6
+    "model_count": 7
   },
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 35
+    "model_count": 37
   }
 ]
