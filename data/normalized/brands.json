@@ -265,6 +265,11 @@
     "model_count": 1
   },
   {
+    "slug": "marq",
+    "display_name": "MarQ",
+    "model_count": 1
+  },
+  {
     "slug": "master-g",
     "display_name": "Master-G",
     "model_count": 2
@@ -297,7 +302,7 @@
   {
     "slug": "nokia",
     "display_name": "Nokia",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "nvidia-shield",
@@ -412,12 +417,12 @@
   {
     "slug": "sharp",
     "display_name": "SHARP",
-    "model_count": 9
+    "model_count": 10
   },
   {
     "slug": "siragon",
     "display_name": "Síragon",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "skyworth",
@@ -427,7 +432,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 44
+    "model_count": 46
   },
   {
     "slug": "stellamore",
@@ -442,7 +447,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 80
+    "model_count": 81
   },
   {
     "slug": "td-systems",
@@ -458,6 +463,11 @@
     "slug": "thomson",
     "display_name": "Thomson",
     "model_count": 4
+  },
+  {
+    "slug": "tim",
+    "display_name": "TIM",
+    "model_count": 1
   },
   {
     "slug": "tivo",
@@ -517,6 +527,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 37
+    "model_count": 38
   }
 ]

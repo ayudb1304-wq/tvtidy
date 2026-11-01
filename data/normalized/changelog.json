@@ -1,106 +1,32 @@
 {
-  "from_commit": "fe9ad3204b945d3aadfb6876ee6ea78c20a1fe73",
-  "to_commit": "1937c8048672d4c322e70fe805bda1175f546716",
+  "from_commit": "1937c8048672d4c322e70fe805bda1175f546716",
+  "to_commit": "6e8615eb0be0e843ceeebedae246d69f3e0a88d7",
   "models_added": [
-    "acer-ar32hdigu2841at",
-    "amazon-fire-tv-stick-4k-max-2023",
-    "artel-43d1200b",
-    "bell-fibe-tv-vip7802",
-    "formovie-xming-page-one-tianshan",
-    "haier-hra962x2",
-    "haier-matrixtv-de",
-    "lyncast-x3aq",
-    "sharp-85hp5465e",
-    "sony-bravia-4k-vh21-tw",
-    "sony-xr-85x90l-cn",
-    "tcl-65mqled80-google-tv",
-    "tcl-75a300-pro",
-    "tdsystems-ch17f40s-redwood",
-    "toshiba-55m550lp",
-    "xgimi-rs10-ultra",
-    "xiaomi-mitv-mosr1",
-    "xiaomi-mitv4i-magnolia"
+    "marq-4k-android-tv",
+    "nokia-r4",
+    "sharp-aquos-tvx18",
+    "siragon-58da7000",
+    "sony-bravia-4k-vh21-sa",
+    "sony-xr-77a80l",
+    "tcl-g06-us-google-tv",
+    "tim-timvision-box-uzw4010tim",
+    "xiaomi-smart-projector-l1-pro-tianshan"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "kalley-r10g",
+      "slug": "tcl-uniontv-latin-america",
       "added": [
-        "com.android.adservices.api",
-        "com.android.federatedcompute.services",
-        "com.android.ondevicepersonalization.services",
-        "com.android.tv.feedbackconsent",
-        "com.apps.wifihotspot",
-        "com.iqiyi.i18n.tv",
-        "com.mercadolibre.android.mplay_tv",
-        "com.realtek.leanbacklauncher.partnercustomizer"
+        "com.tcl.dashboard",
+        "com.tcl.tv.tclhome_passive"
       ],
       "removed": []
     },
     {
-      "slug": "panavox-google-tv",
+      "slug": "vidda-c1s-mt9669",
       "added": [
-        "com.google.android.apps.tv.dreamx",
-        "fusion.android.tv.demo",
-        "tv.anoki.acr.anokiacroptin"
-      ],
-      "removed": [
-        "com.amazon.amazonvideo.livingroom"
-      ]
-    },
-    {
-      "slug": "philips-50pud7406",
-      "added": [
-        "android.autoinstalls.config.tpv.device",
-        "com.google.android.feedback",
-        "com.google.android.onetimeinitializer",
-        "com.google.android.partnersetup",
-        "com.google.android.syncadapters.calendar"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "philips-55pus7503",
-      "added": [
-        "com.google.android.partnersetup",
-        "org.droidtv.candeebug",
-        "org.droidtv.gel",
-        "org.droidtv.tv.frameworklogger",
-        "tv.inscape.tvclient.inscapeacr"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "skyworth-swtv-22ae-fhd",
-      "added": [],
-      "removed": [
-        "com.smartdevice.dailymanage",
-        "com.smartdevice.dailyshortcut",
-        "com.smartdevice.myapp"
-      ]
-    },
-    {
-      "slug": "sony-bravia-vu1",
-      "added": [
-        "android.autoinstalls.config.Sony.BRAVIA_VU1",
-        "com.google.android.play.games"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "sony-bravia-vu2",
-      "added": [
-        "com.google.android.videos"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "tcl-55p7k",
-      "added": [
-        "com.android.printspooler",
-        "com.google.android.onetimeinitializer",
-        "com.google.android.play.games",
-        "com.google.android.syncadapters.calendar"
+        "com.hisense.cloudfalcon",
+        "fusion.android.tv.demo"
       ],
       "removed": []
     }
