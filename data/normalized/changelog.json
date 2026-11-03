@@ -1,32 +1,92 @@
 {
-  "from_commit": "1937c8048672d4c322e70fe805bda1175f546716",
-  "to_commit": "6e8615eb0be0e843ceeebedae246d69f3e0a88d7",
+  "from_commit": "6e8615eb0be0e843ceeebedae246d69f3e0a88d7",
+  "to_commit": "572ce2cbe98b53654cea3d262ee8558a5872dfd1",
   "models_added": [
-    "marq-4k-android-tv",
-    "nokia-r4",
-    "sharp-aquos-tvx18",
-    "siragon-58da7000",
-    "sony-bravia-4k-vh21-sa",
-    "sony-xr-77a80l",
-    "tcl-g06-us-google-tv",
-    "tim-timvision-box-uzw4010tim",
-    "xiaomi-smart-projector-l1-pro-tianshan"
+    "acer-ar32ap2841hdfl",
+    "haam-hm4k75s11tnd",
+    "haier-matrixtv-be",
+    "hisense-85e7q",
+    "jio-stb-c200a",
+    "jmgo-n1s-4k-lonavla",
+    "onn-4k-pro-gen2",
+    "panasonic-gs655",
+    "philips-49pus6561",
+    "skyworth-4k-google-tv-stick",
+    "xiaomi-mitv-axfr2",
+    "xiaomi-mitv-axfu0",
+    "xiaomi-smart-projector-c025rgn"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "tcl-uniontv-latin-america",
+      "slug": "amazon-fire-tv-stick-4k-2018",
       "added": [
-        "com.tcl.dashboard",
-        "com.tcl.tv.tclhome_passive"
+        "com.amazon.csm.htmlruntime",
+        "com.amazon.naatyam",
+        "com.amazon.neodelegate",
+        "com.amazon.recess",
+        "com.android.printspooler"
       ],
       "removed": []
     },
     {
-      "slug": "vidda-c1s-mt9669",
+      "slug": "hisense-smarttv-4k-ffm-lushan",
       "added": [
-        "com.hisense.cloudfalcon",
-        "fusion.android.tv.demo"
+        "com.google.android.videos",
+        "com.haystack.android",
+        "com.roku.web.trc",
+        "com.tubitv",
+        "com.vidaa.oemtabcontentprovider",
+        "net.vidaatv.hisense.android.tv",
+        "tv.pluto.android"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "jvc-uk-4k-sadang",
+      "added": [
+        "android.autoinstalls.config.JVC",
+        "com.google.android.partnersetup"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "sony-kd-65x82l",
+      "added": [
+        "com.amazon.minitv.androidtv.app",
+        "com.jio.media.jiotvplus",
+        "com.jio.media.stb.ondemand",
+        "com.sony.dtv.b2b.adminpassword",
+        "com.sony.dtv.b2b.deviceadminsettings",
+        "com.sony.dtv.b2b.frameworkextension",
+        "com.sony.dtv.b2b.hotelmode",
+        "com.sony.dtv.b2b.importexport",
+        "com.sony.dtv.b2b.ipcontrolsettings",
+        "com.sony.dtv.b2b.noderuntime.normal",
+        "com.sony.dtv.b2b.noderuntime.privilege",
+        "com.sony.dtv.b2b.noderuntimeextension.bpk",
+        "com.sony.dtv.b2b.noderuntimeextension.node_20_11_1",
+        "com.sony.dtv.b2b.prosettings",
+        "com.sony.dtv.b2b.rs232csupport",
+        "com.sony.dtv.b2b.webappruntimedrm",
+        "com.sony.dtv.kenhchonloc"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "tuvio-td43ufbcv5",
+      "added": [],
+      "removed": [
+        "com.amazon.amazonvideo.livingroom",
+        "com.google.android.youtube.tvmusic",
+        "com.netflix.ninja"
+      ]
+    },
+    {
+      "slug": "xiaomi-mitv-mssp1",
+      "added": [
+        "com.android.dreams.basic",
+        "com.mitv.tvhome.mitvplus"
       ],
       "removed": []
     }

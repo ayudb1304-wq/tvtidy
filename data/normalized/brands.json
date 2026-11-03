@@ -2,7 +2,7 @@
   {
     "slug": "acer",
     "display_name": "Acer",
-    "model_count": 3
+    "model_count": 4
   },
   {
     "slug": "aipro2k",
@@ -155,9 +155,14 @@
     "model_count": 3
   },
   {
+    "slug": "haam",
+    "display_name": "HAAM",
+    "model_count": 1
+  },
+  {
     "slug": "haier",
     "display_name": "Haier",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "hikeen",
@@ -167,7 +172,7 @@
   {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 14
+    "model_count": 15
   },
   {
     "slug": "hitachi",
@@ -205,9 +210,14 @@
     "model_count": 2
   },
   {
+    "slug": "jio",
+    "display_name": "Jio",
+    "model_count": 1
+  },
+  {
     "slug": "jmgo",
     "display_name": "JMGO",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "jvc",
@@ -322,7 +332,7 @@
   {
     "slug": "onn",
     "display_name": "onn",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "oppo",
@@ -332,7 +342,7 @@
   {
     "slug": "panasonic",
     "display_name": "Panasonic",
-    "model_count": 6
+    "model_count": 7
   },
   {
     "slug": "panavox",
@@ -347,7 +357,7 @@
   {
     "slug": "philips",
     "display_name": "Philips",
-    "model_count": 21
+    "model_count": 22
   },
   {
     "slug": "polytron",
@@ -427,7 +437,7 @@
   {
     "slug": "skyworth",
     "display_name": "Skyworth",
-    "model_count": 15
+    "model_count": 16
   },
   {
     "slug": "sony",
@@ -527,6 +537,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 38
+    "model_count": 41
   }
 ]
