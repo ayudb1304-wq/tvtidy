@@ -1,7 +1,7 @@
 Lists derived from CleanYourTV, (c) its contributors, MIT License; TVTidy is unaffiliated.
 
 Source: https://github.com/Gathin23/cleanyourtv
-Commit: 572ce2cbe98b53654cea3d262ee8558a5872dfd1
+Commit: 8672e68e8a24c1258e4662cd11daa4ed13795dad
 
 Copied from that commit: LICENSE, and examples/<model>/tv.json, debloat*.txt and README.md.
 The upstream copyright and permission notice is in LICENSE in this directory.

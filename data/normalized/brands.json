@@ -250,6 +250,11 @@
     "model_count": 1
   },
   {
+    "slug": "kunft",
+    "display_name": "KUNFT",
+    "model_count": 1
+  },
+  {
     "slug": "liberton",
     "display_name": "Liberton",
     "model_count": 1
@@ -307,7 +312,7 @@
   {
     "slug": "noblex",
     "display_name": "Noblex",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "nokia",
@@ -440,9 +445,14 @@
     "model_count": 16
   },
   {
+    "slug": "smarttech",
+    "display_name": "Smarttech",
+    "model_count": 1
+  },
+  {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 46
+    "model_count": 47
   },
   {
     "slug": "stellamore",
@@ -477,7 +487,7 @@
   {
     "slug": "tim",
     "display_name": "TIM",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "tivo",
@@ -530,6 +540,11 @@
     "model_count": 1
   },
   {
+    "slug": "x-vision",
+    "display_name": "X.Vision",
+    "model_count": 1
+  },
+  {
     "slug": "xgimi",
     "display_name": "XGIMI",
     "model_count": 7
@@ -537,6 +552,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 41
+    "model_count": 42
   }
 ]
