@@ -10,6 +10,11 @@
     "model_count": 1
   },
   {
+    "slug": "aipro4k",
+    "display_name": "AiPro4K",
+    "model_count": 1
+  },
+  {
     "slug": "aiwa",
     "display_name": "AIWA",
     "model_count": 1
@@ -172,7 +177,7 @@
   {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 15
+    "model_count": 16
   },
   {
     "slug": "hitachi",
@@ -232,6 +237,11 @@
   {
     "slug": "karbonn",
     "display_name": "Karbonn",
+    "model_count": 1
+  },
+  {
+    "slug": "kodak",
+    "display_name": "Kodak",
     "model_count": 1
   },
   {
@@ -360,6 +370,11 @@
     "model_count": 1
   },
   {
+    "slug": "philco",
+    "display_name": "Philco",
+    "model_count": 1
+  },
+  {
     "slug": "philips",
     "display_name": "Philips",
     "model_count": 22
@@ -452,7 +467,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 47
+    "model_count": 49
   },
   {
     "slug": "stellamore",

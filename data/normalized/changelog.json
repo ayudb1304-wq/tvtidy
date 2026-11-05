@@ -1,50 +1,28 @@
 {
-  "from_commit": "572ce2cbe98b53654cea3d262ee8558a5872dfd1",
-  "to_commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad",
+  "from_commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad",
+  "to_commit": "04aec4b7c763ed642d3994d25e5b89dd57014a6d",
   "models_added": [
-    "kunft-k8415h40f",
-    "noblex-db58x7550",
-    "smarttech-apollo-premium-4k",
-    "sony-xbr-55x805g-br",
-    "tim-timvision-box-dwt765ti",
-    "xiaomi-fire-tv-aftne4e43f",
-    "xvision-50xyu765"
+    "aipro4k",
+    "hisense-amlogict963-android9",
+    "kodak-55ca0909",
+    "philco-smart-tv-sunnyvale",
+    "sony-kj-55x9300d",
+    "sony-xbr-x805g-sa"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "nvidia-shield-tv-2019",
-      "added": [
-        "com.google.android.videos"
-      ],
+      "slug": "tcl-75a300-pro",
+      "added": [],
       "removed": [
-        "com.nvidia.KeyComboOta",
-        "com.nvidia.NvCPLUpdater",
-        "com.nvidia.ota"
+        "com.tcl.exhibit"
       ]
     },
     {
-      "slug": "philips-49pus6561",
-      "added": [
-        "com.google.android.onetimeinitializer",
-        "com.google.android.tv.bugreportsender",
-        "org.droidtv.dms"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "tcl-c89b-google-tv",
+      "slug": "tcl-g09-google-tv",
       "added": [],
       "removed": [
-        "com.tcl.gamebar",
-        "com.tcl.hearaid"
-      ]
-    },
-    {
-      "slug": "xiaomi-mitv-mssp3-android9",
-      "added": [],
-      "removed": [
-        "com.xiaomi.mitv.updateservice"
+        "com.graymatrix.did"
       ]
     }
   ]
