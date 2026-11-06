@@ -108,7 +108,7 @@
   },
   {
     "id": "android.autoinstalls.config.SW",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -176,7 +176,7 @@
   },
   {
     "id": "android.autoinstalls.config.fomovie",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -202,7 +202,7 @@
   },
   {
     "id": "android.autoinstalls.config.google.gtvpai",
-    "seen_on_model_count": 50,
+    "seen_on_model_count": 52,
     "kept_on_model_count": 3,
     "category": "ads",
     "category_source": "override",
@@ -212,9 +212,9 @@
     "upstream_notes": [
       "silently installs partner apps",
       "Play partner auto-installs",
+      "Play auto-installs of partner apps",
       "partner auto-installs",
-      "Play auto-install of partner apps",
-      "Play auto-installs of partner apps"
+      "Play auto-install of partner apps"
     ]
   },
   {
@@ -391,7 +391,7 @@
   {
     "id": "android.autoinstalls.config.scbc.device",
     "seen_on_model_count": 10,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "ads",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -421,7 +421,7 @@
   },
   {
     "id": "android.autoinstalls.config.sei",
-    "seen_on_model_count": 5,
+    "seen_on_model_count": 6,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -461,7 +461,7 @@
   },
   {
     "id": "android.autoinstalls.config.skyworth",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -777,7 +777,7 @@
   {
     "id": "ca.bellmedia.cravetv",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -985,7 +985,7 @@
   },
   {
     "id": "com.Smartdevice.emanual",
-    "seen_on_model_count": 21,
+    "seen_on_model_count": 23,
     "kept_on_model_count": 1,
     "category": "ads",
     "category_source": "heuristic",
@@ -1265,7 +1265,7 @@
   {
     "id": "com.amazon.amazonvideo.livingroom",
     "seen_on_model_count": 66,
-    "kept_on_model_count": 44,
+    "kept_on_model_count": 47,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -3048,7 +3048,7 @@
   },
   {
     "id": "com.android.adservices.api",
-    "seen_on_model_count": 76,
+    "seen_on_model_count": 78,
     "kept_on_model_count": 4,
     "category": "ads",
     "category_source": "override",
@@ -3343,8 +3343,8 @@
   },
   {
     "id": "com.android.federatedcompute.services",
-    "seen_on_model_count": 65,
-    "kept_on_model_count": 3,
+    "seen_on_model_count": 67,
+    "kept_on_model_count": 4,
     "category": "telemetry",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -3377,7 +3377,7 @@
   },
   {
     "id": "com.android.health.connect.backuprestore",
-    "seen_on_model_count": 31,
+    "seen_on_model_count": 32,
     "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3391,7 +3391,7 @@
   },
   {
     "id": "com.android.healthconnect.controller",
-    "seen_on_model_count": 31,
+    "seen_on_model_count": 32,
     "kept_on_model_count": 4,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3592,7 +3592,7 @@
   },
   {
     "id": "com.android.ondevicepersonalization.services",
-    "seen_on_model_count": 69,
+    "seen_on_model_count": 71,
     "kept_on_model_count": 3,
     "category": "ads",
     "category_source": "override",
@@ -3642,7 +3642,7 @@
   },
   {
     "id": "com.android.printspooler",
-    "seen_on_model_count": 120,
+    "seen_on_model_count": 124,
     "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -3873,7 +3873,7 @@
   },
   {
     "id": "com.android.tv.feedbackconsent",
-    "seen_on_model_count": 89,
+    "seen_on_model_count": 91,
     "kept_on_model_count": 3,
     "category": "telemetry",
     "category_source": "override",
@@ -4077,7 +4077,7 @@
   {
     "id": "com.apple.atve.androidtv.appletv",
     "seen_on_model_count": 7,
-    "kept_on_model_count": 9,
+    "kept_on_model_count": 10,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4119,7 +4119,7 @@
   {
     "id": "com.apps.biz.ds",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4145,7 +4145,7 @@
   {
     "id": "com.apps.channels",
     "seen_on_model_count": 5,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "ads",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4174,7 +4174,7 @@
   },
   {
     "id": "com.apps.eshow",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -4185,12 +4185,13 @@
       "E-SHOW in-store demo / promo",
       "E-SHOW demonstration",
       "in-store demo / promo",
-      "retail store demo mode"
+      "retail store demo mode",
+      "vendor \"E-SHOW\" app (the name suggests a shop-display mode)"
     ]
   },
   {
     "id": "com.apps.esticker",
-    "seen_on_model_count": 8,
+    "seen_on_model_count": 9,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -4200,7 +4201,8 @@
     "upstream_notes": [
       "ShowService overlay, demo stickers",
       "Retail feature sticker overlay",
-      "store promotional sticker overlay"
+      "store promotional sticker overlay",
+      "vendor \"E-Sticker\" app, purpose unclear"
     ]
   },
   {
@@ -4245,7 +4247,7 @@
   {
     "id": "com.apps.function.gdpr",
     "seen_on_model_count": 8,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 2,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4285,7 +4287,7 @@
   {
     "id": "com.apps.networkspeed",
     "seen_on_model_count": 6,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4339,7 +4341,7 @@
   {
     "id": "com.apps.timeclock",
     "seen_on_model_count": 3,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4366,7 +4368,7 @@
   {
     "id": "com.apps.usbmediaplayer",
     "seen_on_model_count": 7,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4380,7 +4382,7 @@
   },
   {
     "id": "com.apps.wifihotspot",
-    "seen_on_model_count": 12,
+    "seen_on_model_count": 14,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -4555,7 +4557,7 @@
   },
   {
     "id": "com.audiocn.karaoke.global.micmanager",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -4739,7 +4741,7 @@
   {
     "id": "com.cbs.ca",
     "seen_on_model_count": 4,
-    "kept_on_model_count": 2,
+    "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -4861,7 +4863,7 @@
   {
     "id": "com.cltv.fast",
     "seen_on_model_count": 10,
-    "kept_on_model_count": 8,
+    "kept_on_model_count": 9,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -5327,14 +5329,15 @@
   },
   {
     "id": "com.coocaa.tvmanager",
-    "seen_on_model_count": 2,
-    "kept_on_model_count": 2,
+    "seen_on_model_count": 3,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "CooCaa content recommendation and app scanning manager; also scans USB/storage, so re-enable it if USB drives stop showing up",
       "cleaner / \"speed up\", Baidu TV shield",
       "cleaner / memory manager"
     ]
@@ -6441,7 +6444,7 @@
   {
     "id": "com.facebook.katana",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -6816,7 +6819,7 @@
   {
     "id": "com.google.android.apps.mediashell",
     "seen_on_model_count": 51,
-    "kept_on_model_count": 86,
+    "kept_on_model_count": 89,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -6903,7 +6906,7 @@
   {
     "id": "com.google.android.apps.tv.launcherx",
     "seen_on_model_count": 56,
-    "kept_on_model_count": 28,
+    "kept_on_model_count": 29,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -6937,7 +6940,7 @@
   },
   {
     "id": "com.google.android.backdrop",
-    "seen_on_model_count": 92,
+    "seen_on_model_count": 95,
     "kept_on_model_count": 18,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -6965,7 +6968,7 @@
   },
   {
     "id": "com.google.android.boot.appsplashscreen",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -7011,7 +7014,7 @@
   },
   {
     "id": "com.google.android.feedback",
-    "seen_on_model_count": 325,
+    "seen_on_model_count": 331,
     "kept_on_model_count": 6,
     "category": "telemetry",
     "category_source": "override",
@@ -7081,7 +7084,7 @@
   {
     "id": "com.google.android.katniss",
     "seen_on_model_count": 128,
-    "kept_on_model_count": 81,
+    "kept_on_model_count": 83,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7108,7 +7111,7 @@
   },
   {
     "id": "com.google.android.leanbacklauncher.partnercustomizer",
-    "seen_on_model_count": 16,
+    "seen_on_model_count": 17,
     "kept_on_model_count": 8,
     "category": "ads",
     "category_source": "heuristic",
@@ -7155,7 +7158,7 @@
   },
   {
     "id": "com.google.android.marvin.talkback",
-    "seen_on_model_count": 78,
+    "seen_on_model_count": 82,
     "kept_on_model_count": 17,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -7217,8 +7220,8 @@
   },
   {
     "id": "com.google.android.partnersetup",
-    "seen_on_model_count": 156,
-    "kept_on_model_count": 13,
+    "seen_on_model_count": 160,
+    "kept_on_model_count": 14,
     "category": "telemetry",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7227,15 +7230,15 @@
     "upstream_notes": [
       "partner-app attribution",
       "partner attribution",
-      "partner referrer / attribution",
       "Google RLZ attribution pings",
+      "partner referrer / attribution",
       "partner referral tracking"
     ]
   },
   {
     "id": "com.google.android.play.games",
-    "seen_on_model_count": 256,
-    "kept_on_model_count": 20,
+    "seen_on_model_count": 260,
+    "kept_on_model_count": 21,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7297,7 +7300,7 @@
   },
   {
     "id": "com.google.android.syncadapters.calendar",
-    "seen_on_model_count": 127,
+    "seen_on_model_count": 130,
     "kept_on_model_count": 10,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -7345,8 +7348,8 @@
   },
   {
     "id": "com.google.android.tungsten.setupwraith",
-    "seen_on_model_count": 151,
-    "kept_on_model_count": 36,
+    "seen_on_model_count": 152,
+    "kept_on_model_count": 38,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -7372,7 +7375,7 @@
   {
     "id": "com.google.android.tv.assistant",
     "seen_on_model_count": 33,
-    "kept_on_model_count": 8,
+    "kept_on_model_count": 9,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7401,7 +7404,7 @@
   },
   {
     "id": "com.google.android.tv.bugreportsender",
-    "seen_on_model_count": 62,
+    "seen_on_model_count": 63,
     "kept_on_model_count": 1,
     "category": "telemetry",
     "category_source": "override",
@@ -7472,8 +7475,8 @@
   },
   {
     "id": "com.google.android.tvlauncher",
-    "seen_on_model_count": 44,
-    "kept_on_model_count": 43,
+    "seen_on_model_count": 46,
+    "kept_on_model_count": 44,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -7483,7 +7486,7 @@
   },
   {
     "id": "com.google.android.tvrecommendations",
-    "seen_on_model_count": 168,
+    "seen_on_model_count": 172,
     "kept_on_model_count": 12,
     "category": "ads",
     "category_source": "override",
@@ -7515,8 +7518,8 @@
   },
   {
     "id": "com.google.android.videos",
-    "seen_on_model_count": 182,
-    "kept_on_model_count": 27,
+    "seen_on_model_count": 184,
+    "kept_on_model_count": 28,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7575,7 +7578,7 @@
   },
   {
     "id": "com.google.android.youtube.tvmusic",
-    "seen_on_model_count": 150,
+    "seen_on_model_count": 153,
     "kept_on_model_count": 45,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -7956,7 +7959,7 @@
   {
     "id": "com.haystack.android",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -9636,7 +9639,7 @@
   {
     "id": "com.internet.tvbrowser",
     "seen_on_model_count": 4,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10409,7 +10412,7 @@
   {
     "id": "com.mediatek.androidbox",
     "seen_on_model_count": 7,
-    "kept_on_model_count": 5,
+    "kept_on_model_count": 6,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10437,7 +10440,7 @@
   {
     "id": "com.mediatek.dialservice",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 2,
+    "kept_on_model_count": 3,
     "category": "ads",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10499,7 +10502,7 @@
   {
     "id": "com.mediatek.miracast",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10525,7 +10528,7 @@
   {
     "id": "com.mediatek.opapp",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10635,7 +10638,7 @@
   {
     "id": "com.mediatek.tv.oneworld.tvcenter",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -10645,7 +10648,7 @@
   },
   {
     "id": "com.mediatek.tv.retaildemo",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -11316,7 +11319,7 @@
   },
   {
     "id": "com.mstar.android.tv.disclaimercustomization",
-    "seen_on_model_count": 37,
+    "seen_on_model_count": 39,
     "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -11468,7 +11471,7 @@
   },
   {
     "id": "com.nes.bugreportsender",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -11476,7 +11479,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "NES bug report mailer (INTERNET, GET_ACCOUNTS)"
+      "NES bug report mailer (INTERNET, GET_ACCOUNTS)",
+      "NES bug report sender"
     ]
   },
   {
@@ -11507,7 +11511,7 @@
   },
   {
     "id": "com.nes.dvb.playtest",
-    "seen_on_model_count": 3,
+    "seen_on_model_count": 4,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -11521,7 +11525,7 @@
   },
   {
     "id": "com.nes.leanbacklauncher.partnercustomizer",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -11529,7 +11533,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "Nokia's Shop/Discover row config for the stock launcher"
+      "Nokia's Shop/Discover row config for the stock launcher",
+      "Shop/Discover row config for the stock launcher"
     ]
   },
   {
@@ -11613,7 +11618,7 @@
   {
     "id": "com.netflix.ninja",
     "seen_on_model_count": 33,
-    "kept_on_model_count": 42,
+    "kept_on_model_count": 44,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -11641,7 +11646,7 @@
   {
     "id": "com.netflix.tokenmanager",
     "seen_on_model_count": 8,
-    "kept_on_model_count": 14,
+    "kept_on_model_count": 15,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -12491,7 +12496,7 @@
   {
     "id": "com.qjy.browser",
     "seen_on_model_count": 3,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -12581,7 +12586,7 @@
   },
   {
     "id": "com.realtek.leanbacklauncher.partnercustomizer",
-    "seen_on_model_count": 14,
+    "seen_on_model_count": 15,
     "kept_on_model_count": 3,
     "category": "ads",
     "category_source": "heuristic",
@@ -13011,7 +13016,7 @@
   {
     "id": "com.seraphic.media.tv.interactive.app",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -13157,7 +13162,7 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "Device information and location reporting"
+      "Device information and location reporting (SensorsData analytics)"
     ]
   },
   {
@@ -13358,7 +13363,7 @@
   },
   {
     "id": "com.smartdevice.acr.recommendation",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -13391,7 +13396,7 @@
   },
   {
     "id": "com.smartdevice.common.demonow",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -13448,7 +13453,7 @@
   {
     "id": "com.smartdevice.dtv.icast",
     "seen_on_model_count": 6,
-    "kept_on_model_count": 3,
+    "kept_on_model_count": 4,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -13464,7 +13469,7 @@
   },
   {
     "id": "com.smartdevice.epopplayer",
-    "seen_on_model_count": 8,
+    "seen_on_model_count": 9,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -13491,7 +13496,7 @@
   {
     "id": "com.smartdevice.firewall",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -13503,7 +13508,7 @@
   },
   {
     "id": "com.smartdevice.leanbacklauncher.customizer",
-    "seen_on_model_count": 18,
+    "seen_on_model_count": 20,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -13537,7 +13542,7 @@
   },
   {
     "id": "com.smartdevice.recommendation",
-    "seen_on_model_count": 15,
+    "seen_on_model_count": 16,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -15976,8 +15981,8 @@
   },
   {
     "id": "com.tcl.browser",
-    "seen_on_model_count": 27,
-    "kept_on_model_count": 8,
+    "seen_on_model_count": 28,
+    "kept_on_model_count": 9,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16233,7 +16238,7 @@
   {
     "id": "com.tcl.gamebar",
     "seen_on_model_count": 16,
-    "kept_on_model_count": 11,
+    "kept_on_model_count": 12,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16396,7 +16401,7 @@
   {
     "id": "com.tcl.magiconnectfree",
     "seen_on_model_count": 14,
-    "kept_on_model_count": 7,
+    "kept_on_model_count": 8,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16447,7 +16452,7 @@
   {
     "id": "com.tcl.miracast",
     "seen_on_model_count": 18,
-    "kept_on_model_count": 15,
+    "kept_on_model_count": 16,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16706,10 +16711,10 @@
     "excluded_reason": null,
     "upstream_notes": [
       "Bluetooth \"listen alone\"",
+      "T-Solo \"listen alone\": TV sound to Bluetooth headphones",
       "T-Solo \"listen alone\" (Bluetooth headphones while the speakers stay off)",
       "TCL Bluetooth \"listen alone\"",
-      "T-Solo \"listen alone\"",
-      "T-Solo Bluetooth \"listen alone\""
+      "T-Solo \"listen alone\""
     ]
   },
   {
@@ -16754,8 +16759,8 @@
   },
   {
     "id": "com.tcl.ttvs",
-    "seen_on_model_count": 20,
-    "kept_on_model_count": 16,
+    "seen_on_model_count": 19,
+    "kept_on_model_count": 17,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16764,9 +16769,9 @@
     "upstream_notes": [
       "Samba TV ACR viewing tracking, TCL \"BI\" analytics, Alexa core, T-Cast",
       "Samba TV ACR viewing tracking, TCL BI analytics",
-      "TCL analytics service; re-enable if firmware updates stop arriving",
       "Samba TV ACR viewing tracking, TCL \"BI\" analytics, Alexa core, T-Cast, firmware updater",
-      "Samba TV ACR, TCL BI analytics, Alexa core, T-Cast server"
+      "Samba TV ACR, TCL BI analytics, Alexa core, T-Cast server",
+      "TCL BI/analytics, also TCL's firmware updater (comment this line out to keep updates)"
     ]
   },
   {
@@ -17195,7 +17200,7 @@
   },
   {
     "id": "com.tianci.ad",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -17206,8 +17211,8 @@
       "Coocaa ad SDK (boot/shutdown/screensaver ads)",
       "Coocaa ad SDK: boot/shutdown/screensaver/landing ads",
       "Coocaa ad engine (boot ad, started by bootQueue.xml at ~5 s)",
-      "ad service behind the stock home and the screensaver",
-      "boot ad (persist.sys.ad.startboot)"
+      "Tianci advertising cloud push receiver",
+      "ad service behind the stock home and the screensaver"
     ]
   },
   {
@@ -17239,6 +17244,19 @@
       "silent auto-install service (remote app pushing)",
       "silent background app installer",
       "silently installs promoted apps"
+    ]
+  },
+  {
+    "id": "com.tianci.de",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 2,
+    "category": "telemetry",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "Tianci Data Engine daemons listening for package changes"
     ]
   },
   {
@@ -17542,7 +17560,7 @@
   },
   {
     "id": "com.utsmta.app",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -17633,7 +17651,7 @@
   {
     "id": "com.vestel.smartlogger",
     "seen_on_model_count": 3,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -18280,7 +18298,7 @@
   },
   {
     "id": "com.xgimi.atvwifiverify",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -18293,7 +18311,7 @@
   },
   {
     "id": "com.xgimi.bugreportsender",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -18335,7 +18353,7 @@
   {
     "id": "com.xgimi.doubanfm",
     "seen_on_model_count": 6,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -18362,7 +18380,7 @@
   {
     "id": "com.xgimi.gimiplayer",
     "seen_on_model_count": 2,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -18400,7 +18418,7 @@
   },
   {
     "id": "com.xgimi.minitvfactory",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -18409,7 +18427,8 @@
     "excluded_reason": null,
     "upstream_notes": [
       "factory menu, file transfer and burn-in (never launched)",
-      "factory menu, file transfer and burn-in services"
+      "factory menu, file transfer and burn-in services",
+      "factory menu, file transfer and burn-in"
     ]
   },
   {
@@ -18441,7 +18460,7 @@
   {
     "id": "com.xgimi.ota.accessories",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -18514,6 +18533,19 @@
     "excluded_reason": null,
     "upstream_notes": [
       "account/VIP/backup UI and provider"
+    ]
+  },
+  {
+    "id": "com.xgimi.yg.minitvfactory",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "second factory menu build"
     ]
   },
   {
@@ -19280,7 +19312,7 @@
   },
   {
     "id": "com.yandex.android.advid",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -19306,7 +19338,7 @@
   },
   {
     "id": "com.yandex.prebuiltstub",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -19314,12 +19346,26 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "empty stub",
       "empty stub, no components"
     ]
   },
   {
-    "id": "com.yandex.tv.bugreportsender",
+    "id": "com.yandex.tv.alice",
     "seen_on_model_count": 1,
+    "kept_on_model_count": 1,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "Alice"
+    ]
+  },
+  {
+    "id": "com.yandex.tv.bugreportsender",
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -19332,7 +19378,7 @@
   },
   {
     "id": "com.yandex.tv.daydream",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -19340,13 +19386,14 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "Yandex video screensaver (ad slot); set the launcher's ClockDream instead",
       "Yandex video screensaver; the screensaver setting still names it (README.md)"
     ]
   },
   {
     "id": "com.yandex.tv.home",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -19358,7 +19405,7 @@
   },
   {
     "id": "com.yandex.tv.webplayer",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -19366,6 +19413,7 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "Yandex web player; Kinopoisk, VK Video and Rutube play without it",
       "Yandex web player; YouTube and Kinopoisk play without it"
     ]
   },
@@ -19921,7 +19969,7 @@
   {
     "id": "de.stefanpledl.localcast",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 0,
+    "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -20087,8 +20135,8 @@
   },
   {
     "id": "fusion.android.tv.demo",
-    "seen_on_model_count": 67,
-    "kept_on_model_count": 17,
+    "seen_on_model_count": 69,
+    "kept_on_model_count": 18,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -22355,7 +22403,7 @@
   },
   {
     "id": "tv.anoki.acr.anokiacroptin",
-    "seen_on_model_count": 26,
+    "seen_on_model_count": 28,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",

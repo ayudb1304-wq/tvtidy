@@ -42,7 +42,7 @@
   {
     "slug": "artel",
     "display_name": "Artel",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "asus",
@@ -137,7 +137,7 @@
   {
     "slug": "formovie",
     "display_name": "Formovie",
-    "model_count": 3
+    "model_count": 4
   },
   {
     "slug": "freebox",
@@ -327,7 +327,7 @@
   {
     "slug": "nokia",
     "display_name": "Nokia",
-    "model_count": 3
+    "model_count": 4
   },
   {
     "slug": "nvidia-shield",
@@ -417,7 +417,7 @@
   {
     "slug": "rocktek",
     "display_name": "RockTek",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "salora",
@@ -457,7 +457,7 @@
   {
     "slug": "skyworth",
     "display_name": "Skyworth",
-    "model_count": 16
+    "model_count": 17
   },
   {
     "slug": "smarttech",
@@ -472,6 +472,11 @@
   {
     "slug": "stellamore",
     "display_name": "Stellamore",
+    "model_count": 1
+  },
+  {
+    "slug": "sunwind",
+    "display_name": "SunWind",
     "model_count": 1
   },
   {
@@ -492,6 +497,11 @@
   {
     "slug": "tele-system",
     "display_name": "Tele System",
+    "model_count": 1
+  },
+  {
+    "slug": "tesla",
+    "display_name": "Tesla",
     "model_count": 1
   },
   {
@@ -540,6 +550,11 @@
     "model_count": 2
   },
   {
+    "slug": "visio",
+    "display_name": "VISIO",
+    "model_count": 1
+  },
+  {
     "slug": "vision",
     "display_name": "Vision",
     "model_count": 1
@@ -562,7 +577,7 @@
   {
     "slug": "xgimi",
     "display_name": "XGIMI",
-    "model_count": 7
+    "model_count": 8
   },
   {
     "slug": "xiaomi",
