@@ -87,7 +87,7 @@
   {
     "slug": "challenger",
     "display_name": "Challenger",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "chihi",
@@ -147,7 +147,7 @@
   {
     "slug": "ffalcon",
     "display_name": "FFalcon",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "formovie",
@@ -392,7 +392,7 @@
   {
     "slug": "philips",
     "display_name": "Philips",
-    "model_count": 22
+    "model_count": 23
   },
   {
     "slug": "polytron",
@@ -507,7 +507,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 82
+    "model_count": 83
   },
   {
     "slug": "td-systems",
@@ -547,7 +547,7 @@
   {
     "slug": "toshiba",
     "display_name": "Toshiba",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "turkcell",
@@ -607,6 +607,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 42
+    "model_count": 43
   }
 ]
