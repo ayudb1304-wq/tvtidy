@@ -90,6 +90,11 @@
     "model_count": 1
   },
   {
+    "slug": "chihi",
+    "display_name": "Chihi",
+    "model_count": 1
+  },
+  {
     "slug": "chiq",
     "display_name": "CHiQ",
     "model_count": 2
@@ -115,6 +120,11 @@
     "model_count": 1
   },
   {
+    "slug": "durabrand",
+    "display_name": "Durabrand",
+    "model_count": 1
+  },
+  {
     "slug": "dyon",
     "display_name": "DYON",
     "model_count": 1
@@ -127,6 +137,11 @@
   {
     "slug": "epson",
     "display_name": "Epson",
+    "model_count": 1
+  },
+  {
+    "slug": "essentiel-b",
+    "display_name": "Essentiel b",
     "model_count": 1
   },
   {
@@ -322,7 +337,7 @@
   {
     "slug": "noblex",
     "display_name": "Noblex",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "nokia",
@@ -475,6 +490,11 @@
     "model_count": 1
   },
   {
+    "slug": "strong",
+    "display_name": "STRONG",
+    "model_count": 1
+  },
+  {
     "slug": "sunwind",
     "display_name": "SunWind",
     "model_count": 1
@@ -487,7 +507,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 81
+    "model_count": 82
   },
   {
     "slug": "td-systems",
@@ -527,7 +547,7 @@
   {
     "slug": "toshiba",
     "display_name": "Toshiba",
-    "model_count": 4
+    "model_count": 5
   },
   {
     "slug": "turkcell",
@@ -557,6 +577,11 @@
   {
     "slug": "vision",
     "display_name": "Vision",
+    "model_count": 1
+  },
+  {
+    "slug": "vityas",
+    "display_name": "Vityas",
     "model_count": 1
   },
   {

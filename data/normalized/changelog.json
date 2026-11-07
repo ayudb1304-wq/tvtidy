@@ -1,40 +1,33 @@
 {
-  "from_commit": "04aec4b7c763ed642d3994d25e5b89dd57014a6d",
-  "to_commit": "fc148d5a9707b30e8f49f489625947421740dc55",
+  "from_commit": "fc148d5a9707b30e8f49f489625947421740dc55",
+  "to_commit": "3c122bc073f7a9a83de251621e6e31d90dd96109",
   "models_added": [
-    "artel-a55lu8500",
-    "formovie-theater-koroli",
-    "nokia-atv-r2",
-    "rocktek-g2",
-    "skyworth-swtv-20sa-pro",
-    "sunwind-sun-led32xs305",
-    "tesla-q55e655gus",
-    "visio-32",
-    "xgimi-vibe-one"
+    "chihi-hx-p30",
+    "durabrand-durat32isdb",
+    "essentiel-b-r3",
+    "noblex-dr55x9500",
+    "strong-srt-43ud6593",
+    "tcl-55q7d-pro-google-tv",
+    "toshiba-43v35kp",
+    "vityas-hitv-50-m7332"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "chiq-gtvu65",
+      "slug": "tcl-beyondtv-rt2851",
       "added": [
-        "tv.anoki.acr.anokiacroptin"
+        "com.tcl.notereminder",
+        "com.tcl.smartalexa",
+        "com.tcl.usercenter",
+        "tv.wuaki.apptv"
       ],
       "removed": []
     },
     {
-      "slug": "skyworth-7t861-a23",
-      "added": [
-        "com.coocaa.tvmanager",
-        "com.tianci.ad",
-        "com.tianci.de"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "tcl-55p7k",
+      "slug": "xiaomi-mitv-aesp0",
       "added": [],
       "removed": [
-        "com.tcl.ttvs"
+        "com.xiaomi.android.tvsetup.partnercustomizer"
       ]
     }
   ]
