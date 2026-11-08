@@ -1,38 +1,15 @@
 {
-  "from_commit": "3c122bc073f7a9a83de251621e6e31d90dd96109",
-  "to_commit": "d451b175ab3f869f9a5d66993fb2dd501c96920b",
+  "from_commit": "d451b175ab3f869f9a5d66993fb2dd501c96920b",
+  "to_commit": "294d3d59dc2514e69fed557f46c1ecdfb87a95ec",
   "models_added": [
-    "challenger-r3",
-    "ffalcon-peng6-55s375c",
-    "philips-65pqt8169",
-    "tcl-beyondtv-jp",
-    "toshiba-shandao-atv11",
-    "xiaomi-mi-box-4s-pro-frozen"
+    "lumio-arc-5"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "panasonic-4ktv-0su",
+      "slug": "sony-xr-65a80j",
       "added": [
-        "com.community.oneroom",
-        "com.sky.market",
-        "com.smartdevice.tvworkwithalexa"
-      ],
-      "removed": [
-        "com.google.android.partnersetup"
-      ]
-    },
-    {
-      "slug": "skyworth-7t861-a23",
-      "added": [
-        "com.coocaa.theme_package_ccos_nine"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "xiaomi-mitv-mssp3-android9",
-      "added": [
-        "com.google.android.tv.bugreportsender"
+        "com.sony.dtv.promos"
       ],
       "removed": []
     }
