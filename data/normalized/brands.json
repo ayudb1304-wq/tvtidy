@@ -112,7 +112,7 @@
   {
     "slug": "dexp",
     "display_name": "DEXP",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "dialog",
@@ -182,7 +182,7 @@
   {
     "slug": "haier",
     "display_name": "Haier",
-    "model_count": 6
+    "model_count": 7
   },
   {
     "slug": "hikeen",
@@ -222,6 +222,11 @@
   {
     "slug": "inclo",
     "display_name": "INCLO",
+    "model_count": 1
+  },
+  {
+    "slug": "indurama",
+    "display_name": "Indurama",
     "model_count": 1
   },
   {
@@ -440,6 +445,11 @@
     "model_count": 1
   },
   {
+    "slug": "sampo",
+    "display_name": "SAMPO",
+    "model_count": 1
+  },
+  {
     "slug": "sankey",
     "display_name": "Sankey",
     "model_count": 2
@@ -482,7 +492,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 49
+    "model_count": 50
   },
   {
     "slug": "stellamore",
@@ -507,7 +517,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 83
+    "model_count": 84
   },
   {
     "slug": "td-systems",
