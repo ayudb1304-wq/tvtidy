@@ -1,30 +1,53 @@
 {
-  "from_commit": "294d3d59dc2514e69fed557f46c1ecdfb87a95ec",
-  "to_commit": "3b6b3a15760d426dfcbcc6007bf26c429f35096a",
+  "from_commit": "3b6b3a15760d426dfcbcc6007bf26c429f35096a",
+  "to_commit": "deba47ca1eac7abe3fef0f73ddaf5ae6fb86c1af",
   "models_added": [
-    "candy-android-tv-dvb",
-    "dexp-65uhg2",
-    "indurama-google-tv-4k-ktc-hongkong",
-    "sampo-oled-55zw8212",
-    "sony-bravia-8-ii",
-    "tcl-50s434"
+    "metz-43mub8000",
+    "panasonic-atv-r2",
+    "turbo-x-40as60t"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "sony-bravia-4k-vh2",
+      "slug": "hisense-fire-tv-55qd6qf",
       "added": [],
       "removed": [
-        "com.sony.dtv.sonybugreportsys",
-        "com.sonyericsson.idd.agent"
+        "com.amazon.providers.contentsupport"
       ]
     },
     {
-      "slug": "tcl-43c645",
-      "added": [],
-      "removed": [
-        "com.tcl.usercenter"
-      ]
+      "slug": "panasonic-kowloon",
+      "added": [
+        "com.android.backupconfirm",
+        "com.android.cameraextensions",
+        "com.android.dreams.basic",
+        "com.android.federatedcompute.services",
+        "com.android.health.connect.backuprestore",
+        "com.android.hotspot2.osulogin",
+        "com.android.htmlviewer",
+        "com.android.providers.calendar",
+        "com.android.sharedstoragebackup",
+        "com.android.tv.feedbackconsent",
+        "com.android.wallpaperbackup",
+        "com.google.android.partnersetup",
+        "com.google.android.syncadapters.calendar",
+        "com.vestel.tv.eib",
+        "com.vewd.core.browser"
+      ],
+      "removed": []
+    },
+    {
+      "slug": "tim-timvision-box-uzw4010tim",
+      "added": [
+        "android.autoinstalls.config.technicolor",
+        "com.google.android.partnersetup",
+        "com.technicolor.app.ota",
+        "com.technicolor.autoperiodicreboot",
+        "com.technicolor.project.releasenote",
+        "com.technicolor.zta",
+        "timvision.setup_wizard"
+      ],
+      "removed": []
     }
   ]
 }

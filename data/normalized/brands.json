@@ -325,6 +325,11 @@
     "model_count": 1
   },
   {
+    "slug": "metz",
+    "display_name": "Metz",
+    "model_count": 1
+  },
+  {
     "slug": "motorola",
     "display_name": "Motorola",
     "model_count": 3
@@ -377,7 +382,7 @@
   {
     "slug": "panasonic",
     "display_name": "Panasonic",
-    "model_count": 7
+    "model_count": 8
   },
   {
     "slug": "panavox",
@@ -558,6 +563,11 @@
     "slug": "toshiba",
     "display_name": "Toshiba",
     "model_count": 6
+  },
+  {
+    "slug": "turbo-x",
+    "display_name": "Turbo-X",
+    "model_count": 1
   },
   {
     "slug": "turkcell",
