@@ -522,7 +522,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 84
+    "model_count": 85
   },
   {
     "slug": "td-systems",
@@ -627,6 +627,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 43
+    "model_count": 44
   }
 ]

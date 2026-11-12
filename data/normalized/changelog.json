@@ -1,53 +1,10 @@
 {
-  "from_commit": "3b6b3a15760d426dfcbcc6007bf26c429f35096a",
-  "to_commit": "deba47ca1eac7abe3fef0f73ddaf5ae6fb86c1af",
+  "from_commit": "deba47ca1eac7abe3fef0f73ddaf5ae6fb86c1af",
+  "to_commit": "b95380483c9716b0bce6c151fa8de6b1f5000265",
   "models_added": [
-    "metz-43mub8000",
-    "panasonic-atv-r2",
-    "turbo-x-40as60t"
+    "tcl-55s450g",
+    "xiaomi-mitv-mftr0-android14"
   ],
   "models_removed": [],
-  "packages_changed": [
-    {
-      "slug": "hisense-fire-tv-55qd6qf",
-      "added": [],
-      "removed": [
-        "com.amazon.providers.contentsupport"
-      ]
-    },
-    {
-      "slug": "panasonic-kowloon",
-      "added": [
-        "com.android.backupconfirm",
-        "com.android.cameraextensions",
-        "com.android.dreams.basic",
-        "com.android.federatedcompute.services",
-        "com.android.health.connect.backuprestore",
-        "com.android.hotspot2.osulogin",
-        "com.android.htmlviewer",
-        "com.android.providers.calendar",
-        "com.android.sharedstoragebackup",
-        "com.android.tv.feedbackconsent",
-        "com.android.wallpaperbackup",
-        "com.google.android.partnersetup",
-        "com.google.android.syncadapters.calendar",
-        "com.vestel.tv.eib",
-        "com.vewd.core.browser"
-      ],
-      "removed": []
-    },
-    {
-      "slug": "tim-timvision-box-uzw4010tim",
-      "added": [
-        "android.autoinstalls.config.technicolor",
-        "com.google.android.partnersetup",
-        "com.technicolor.app.ota",
-        "com.technicolor.autoperiodicreboot",
-        "com.technicolor.project.releasenote",
-        "com.technicolor.zta",
-        "timvision.setup_wizard"
-      ],
-      "removed": []
-    }
-  ]
+  "packages_changed": []
 }
