@@ -105,6 +105,11 @@
     "model_count": 1
   },
   {
+    "slug": "continental-edison",
+    "display_name": "Continental Edison",
+    "model_count": 1
+  },
+  {
     "slug": "dcolor",
     "display_name": "Dcolor",
     "model_count": 1
@@ -133,6 +138,11 @@
     "slug": "eko",
     "display_name": "EKO",
     "model_count": 2
+  },
+  {
+    "slug": "engy",
+    "display_name": "ENGY",
+    "model_count": 1
   },
   {
     "slug": "epson",
@@ -353,6 +363,11 @@
     "slug": "nokia",
     "display_name": "Nokia",
     "model_count": 4
+  },
+  {
+    "slug": "nonete",
+    "display_name": "Nonete",
+    "model_count": 1
   },
   {
     "slug": "nvidia-shield",
@@ -627,6 +642,6 @@
   {
     "slug": "xiaomi",
     "display_name": "Xiaomi",
-    "model_count": 44
+    "model_count": 45
   }
 ]
