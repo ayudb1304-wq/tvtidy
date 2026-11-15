@@ -1,25 +1,7 @@
 {
-  "from_commit": "b95380483c9716b0bce6c151fa8de6b1f5000265",
-  "to_commit": "b121838a666832fda3e7bddb702df9a6610d67aa",
-  "models_added": [
-    "continental-edison-celed50sav222b6",
-    "engy-ai-pont",
-    "nonete-portable-projector-h726",
-    "xiaomi-mitv-mssp2-android11"
-  ],
+  "from_commit": "b121838a666832fda3e7bddb702df9a6610d67aa",
+  "to_commit": "50d5efabf843acf811d3aef2ecf4e2a7f50b82e7",
+  "models_added": [],
   "models_removed": [],
-  "packages_changed": [
-    {
-      "slug": "karbonn-swtv-20ae",
-      "added": [
-        "android.autoinstalls.config.SW",
-        "com.android.dreams.basic",
-        "com.android.printspooler",
-        "com.google.android.leanbacklauncher.partnercustomizer",
-        "com.google.android.partnersetup",
-        "com.mstar.netflixobserver"
-      ],
-      "removed": []
-    }
-  ]
+  "packages_changed": []
 }
