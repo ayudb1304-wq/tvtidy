@@ -1,25 +1,15 @@
 {
-  "from_commit": "50d5efabf843acf811d3aef2ecf4e2a7f50b82e7",
-  "to_commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e",
+  "from_commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e",
+  "to_commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73",
   "models_added": [
-    "daewoo-50dm62ua-finch",
-    "master-g-2k-smart-tv-jordanfarias",
-    "philips-32pfs6402",
-    "realme-smart-tv",
-    "sharp-32gf3265e",
-    "sony-kdl-55w805c",
-    "tcl-32s6200",
-    "tcl-es560",
-    "xiaomi-mitv-axso2-android11"
+    "btv-b11",
+    "chiq-m75q10s",
+    "hisense-u75-hengshan-android14",
+    "sony-kd-55x80j",
+    "sony-kdl-43w800d",
+    "tcl-g08-au-android14",
+    "xgimi-z9x-china"
   ],
   "models_removed": [],
-  "packages_changed": [
-    {
-      "slug": "tcl-55a300w",
-      "added": [],
-      "removed": [
-        "com.tcl.exhibit"
-      ]
-    }
-  ]
+  "packages_changed": []
 }

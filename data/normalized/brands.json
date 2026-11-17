@@ -70,6 +70,11 @@
     "model_count": 1
   },
   {
+    "slug": "btv",
+    "display_name": "BTV",
+    "model_count": 1
+  },
+  {
     "slug": "byintek",
     "display_name": "BYINTEK",
     "model_count": 2
@@ -97,7 +102,7 @@
   {
     "slug": "chiq",
     "display_name": "CHiQ",
-    "model_count": 2
+    "model_count": 3
   },
   {
     "slug": "compac",
@@ -207,7 +212,7 @@
   {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 16
+    "model_count": 17
   },
   {
     "slug": "hitachi",
@@ -522,7 +527,7 @@
   {
     "slug": "sony",
     "display_name": "Sony",
-    "model_count": 51
+    "model_count": 53
   },
   {
     "slug": "stellamore",
@@ -547,7 +552,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 87
+    "model_count": 88
   },
   {
     "slug": "td-systems",
@@ -647,7 +652,7 @@
   {
     "slug": "xgimi",
     "display_name": "XGIMI",
-    "model_count": 8
+    "model_count": 9
   },
   {
     "slug": "xiaomi",
