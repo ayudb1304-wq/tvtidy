@@ -1,15 +1,17 @@
 {
-  "from_commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e",
-  "to_commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73",
+  "from_commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73",
+  "to_commit": "3ece7766ad5d6af79a2c4dd73e77b4b9623dfeca",
   "models_added": [
-    "btv-b11",
-    "chiq-m75q10s",
-    "hisense-u75-hengshan-android14",
-    "sony-kd-55x80j",
-    "sony-kdl-43w800d",
-    "tcl-g08-au-android14",
-    "xgimi-z9x-china"
+    "vidda-vl7r-pro"
   ],
   "models_removed": [],
-  "packages_changed": []
+  "packages_changed": [
+    {
+      "slug": "xiaomi-mi-tv-4a",
+      "added": [
+        "com.duokan.factorytest"
+      ],
+      "removed": []
+    }
+  ]
 }

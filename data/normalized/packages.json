@@ -1125,6 +1125,19 @@
     ]
   },
   {
+    "id": "com.aispeech.dui.dds.tvassistant",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "TV assistant voice stub"
+    ]
+  },
+  {
     "id": "com.aksys.jiogamepad",
     "seen_on_model_count": 1,
     "kept_on_model_count": 0,
@@ -3190,7 +3203,7 @@
   {
     "id": "com.android.camera2",
     "seen_on_model_count": 12,
-    "kept_on_model_count": 4,
+    "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -3624,7 +3637,7 @@
   },
   {
     "id": "com.android.nearby.halfsheet",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3632,7 +3645,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "Nearby pairing pop-up"
+      "Nearby pairing pop-up",
+      "nearby halfsheet"
     ]
   },
   {
@@ -4021,6 +4035,32 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": []
+  },
+  {
+    "id": "com.android.wallpaperpicker",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "AOSP wallpaper picker"
+    ]
+  },
+  {
+    "id": "com.android.wechathci",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 2,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "voice handwriting input engine"
+    ]
   },
   {
     "id": "com.android.ytb",
@@ -6393,7 +6433,7 @@
   },
   {
     "id": "com.duokan.factorytest",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -7113,7 +7153,7 @@
   {
     "id": "com.google.android.apps.nbu.smartconnect.tv",
     "seen_on_model_count": 33,
-    "kept_on_model_count": 3,
+    "kept_on_model_count": 4,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -7186,7 +7226,7 @@
   {
     "id": "com.google.android.apps.tv.launcherx",
     "seen_on_model_count": 64,
-    "kept_on_model_count": 32,
+    "kept_on_model_count": 33,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -7295,7 +7335,7 @@
   {
     "id": "com.google.android.feedback",
     "seen_on_model_count": 367,
-    "kept_on_model_count": 6,
+    "kept_on_model_count": 7,
     "category": "telemetry",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7364,7 +7404,7 @@
   {
     "id": "com.google.android.katniss",
     "seen_on_model_count": 135,
-    "kept_on_model_count": 103,
+    "kept_on_model_count": 104,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7439,7 +7479,7 @@
   {
     "id": "com.google.android.marvin.talkback",
     "seen_on_model_count": 89,
-    "kept_on_model_count": 24,
+    "kept_on_model_count": 25,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7484,7 +7524,7 @@
   {
     "id": "com.google.android.onetimeinitializer",
     "seen_on_model_count": 80,
-    "kept_on_model_count": 4,
+    "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7582,7 +7622,7 @@
   {
     "id": "com.google.android.syncadapters.calendar",
     "seen_on_model_count": 150,
-    "kept_on_model_count": 12,
+    "kept_on_model_count": 13,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7630,7 +7670,7 @@
   {
     "id": "com.google.android.tungsten.setupwraith",
     "seen_on_model_count": 169,
-    "kept_on_model_count": 46,
+    "kept_on_model_count": 47,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -7656,7 +7696,7 @@
   {
     "id": "com.google.android.tv.assistant",
     "seen_on_model_count": 35,
-    "kept_on_model_count": 9,
+    "kept_on_model_count": 10,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -8672,6 +8712,19 @@
     "upstream_notes": []
   },
   {
+    "id": "com.hisense.aiot",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 2,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "smart home IoT service"
+    ]
+  },
+  {
     "id": "com.hisense.alexa",
     "seen_on_model_count": 2,
     "kept_on_model_count": 1,
@@ -8727,7 +8780,7 @@
   },
   {
     "id": "com.hisense.business.ad",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -8740,6 +8793,19 @@
       "ad SDK (Alibaba Baichuan + CIBN shopping)",
       "ad SDK (ships Alibaba Baichuan + CIBN shopping SDKs)",
       "shopping/Taobao advertising integration"
+    ]
+  },
+  {
+    "id": "com.hisense.childlock",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 1,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "child lock"
     ]
   },
   {
@@ -8757,7 +8823,7 @@
   },
   {
     "id": "com.hisense.demonstrate",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -8772,7 +8838,7 @@
   },
   {
     "id": "com.hisense.electronictutorial",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -8837,7 +8903,7 @@
   },
   {
     "id": "com.hisense.hitv.das",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -8845,15 +8911,15 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "DasApp: DataReportReceiver only",
       "DasApp reporter (JuUI)",
+      "DasApp: DataReportReceiver only",
       "DasApp telemetry",
       "data reporting"
     ]
   },
   {
     "id": "com.hisense.hitv.hicloud.account",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 1,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -8861,12 +8927,26 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "HiCloud account manager"
+      "HiCloud account manager",
+      "HiCloud vendor account"
+    ]
+  },
+  {
+    "id": "com.hisense.hitv.payment",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 1,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "payment service"
     ]
   },
   {
     "id": "com.hisense.hotelmenu",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -8890,8 +8970,21 @@
     "upstream_notes": []
   },
   {
+    "id": "com.hisense.locking",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "lock service"
+    ]
+  },
+  {
     "id": "com.hisense.logupload",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -8901,6 +8994,32 @@
     "upstream_notes": [
       "log uploader",
       "log upload"
+    ]
+  },
+  {
+    "id": "com.hisense.msvoicetome",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "voice service"
+    ]
+  },
+  {
+    "id": "com.hisense.multiscreen.screenhelper",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "multi-screen helper"
     ]
   },
   {
@@ -8914,6 +9033,32 @@
     "excluded_reason": null,
     "upstream_notes": [
       "Hisense screensaver (DayDreamService), off by choice"
+    ]
+  },
+  {
+    "id": "com.hisense.nas.pt",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "vendor NAS client"
+    ]
+  },
+  {
+    "id": "com.hisense.nasservice",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 1,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "vendor NAS background service"
     ]
   },
   {
@@ -8934,8 +9079,21 @@
     ]
   },
   {
+    "id": "com.hisense.pcm.share",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "PC screen share"
+    ]
+  },
+  {
     "id": "com.hisense.platformreport",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -8962,7 +9120,7 @@
   },
   {
     "id": "com.hisense.service.ad",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -8991,7 +9149,7 @@
   },
   {
     "id": "com.hisense.service.message",
-    "seen_on_model_count": 9,
+    "seen_on_model_count": 10,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -9043,6 +9201,19 @@
     "excluded_reason": null,
     "upstream_notes": [
       "retail store demo mode"
+    ]
+  },
+  {
+    "id": "com.hisense.tv.aivirtualassistant",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "AI virtual assistant character"
     ]
   },
   {
@@ -9227,7 +9398,7 @@
   },
   {
     "id": "com.hisense.tv.weather",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -9235,8 +9406,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "weather card, another content feed",
       "stock weather tile",
+      "weather card, another content feed",
       "weather card, a content feed",
       "weather/content feed card"
     ]
@@ -9316,6 +9487,19 @@
     "upstream_notes": [
       "Miracast receiver",
       "Miracast screen mirroring receiver"
+    ]
+  },
+  {
+    "id": "com.hispeech.ai.area",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "HiSpeech AI service"
     ]
   },
   {
@@ -10058,6 +10242,19 @@
     ]
   },
   {
+    "id": "com.intelligent.speech",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "intelligent speech engine"
+    ]
+  },
+  {
     "id": "com.internet.tvbrowser",
     "seen_on_model_count": 4,
     "kept_on_model_count": 1,
@@ -10164,7 +10361,7 @@
   },
   {
     "id": "com.jamdeo.calendar",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -10179,7 +10376,7 @@
   },
   {
     "id": "com.jamdeo.screensaver",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "ads",
     "category_source": "heuristic",
@@ -10187,12 +10384,13 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "stock screensaver",
       "vendor ad screensaver"
     ]
   },
   {
     "id": "com.jamdeo.tv.fte",
-    "seen_on_model_count": 6,
+    "seen_on_model_count": 7,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -10208,8 +10406,21 @@
     ]
   },
   {
+    "id": "com.jamdeo.tv.jurestartapp",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "restart helper"
+    ]
+  },
+  {
     "id": "com.jamdeo.tv.mediacenter",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -10218,12 +10429,13 @@
     "excluded_reason": null,
     "upstream_notes": [
       "Hisense MediaCenter DLNA/USB player",
-      "USB media player, off by choice"
+      "USB media player, off by choice",
+      "stock media center"
     ]
   },
   {
     "id": "com.jamdeo.tv.vod",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 4,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -10536,7 +10748,7 @@
   },
   {
     "id": "com.ju.miguvideoTV.cmcc",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -10544,6 +10756,7 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "Migu Video carrier preload",
       "Migu Video, carrier preload"
     ]
   },
@@ -10559,7 +10772,7 @@
     "upstream_notes": []
   },
   {
-    "id": "com.keylab.speech.view.vidaa",
+    "id": "com.keylab.speech.core.vidaa",
     "seen_on_model_count": 1,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
@@ -10567,7 +10780,22 @@
     "safe_to_disable": "caution",
     "description": "Unverified",
     "excluded_reason": null,
-    "upstream_notes": []
+    "upstream_notes": [
+      "speech core service"
+    ]
+  },
+  {
+    "id": "com.keylab.speech.view.vidaa",
+    "seen_on_model_count": 2,
+    "kept_on_model_count": 2,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "speech assistant UI and second-screen launcher"
+    ]
   },
   {
     "id": "com.kgzn.castscreen",
@@ -10705,6 +10933,19 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": []
+  },
+  {
+    "id": "com.kookong.tvplus",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 2,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "TV plus / remote live content"
+    ]
   },
   {
     "id": "com.ktc.serialport",
@@ -11316,7 +11557,7 @@
   },
   {
     "id": "com.meetingroom",
-    "seen_on_model_count": 3,
+    "seen_on_model_count": 4,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -11324,8 +11565,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "meeting-room mode",
-      "meeting-room mode, answers HOME at -100"
+      "meeting-room mode, answers HOME at -100",
+      "meeting-room mode"
     ]
   },
   {
@@ -11894,6 +12135,32 @@
     "excluded_reason": null,
     "upstream_notes": [
       "USB cast"
+    ]
+  },
+  {
+    "id": "com.ms.ucast.ucastapp",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "ucast casting"
+    ]
+  },
+  {
+    "id": "com.ms.weshare",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "weshare casting"
     ]
   },
   {
@@ -14482,7 +14749,7 @@
   {
     "id": "com.sohu.inputmethod.sogou.tv",
     "seen_on_model_count": 1,
-    "kept_on_model_count": 7,
+    "kept_on_model_count": 8,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16204,7 +16471,7 @@
   },
   {
     "id": "com.speech.enchatroom",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -16212,6 +16479,7 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
+      "English chat room gimmick",
       "voice chat room"
     ]
   },
@@ -16554,7 +16822,7 @@
   {
     "id": "com.tcl.assistant",
     "seen_on_model_count": 28,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -16753,7 +17021,7 @@
   {
     "id": "com.tcl.dashboard",
     "seen_on_model_count": 38,
-    "kept_on_model_count": 5,
+    "kept_on_model_count": 6,
     "category": "ads",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -16846,7 +17114,7 @@
     "id": "com.tcl.factory.view",
     "seen_on_model_count": 1,
     "kept_on_model_count": 7,
-    "category": "ads",
+    "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
     "description": "Unverified",
@@ -16934,7 +17202,7 @@
   {
     "id": "com.tcl.guard",
     "seen_on_model_count": 53,
-    "kept_on_model_count": 8,
+    "kept_on_model_count": 9,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -16951,7 +17219,7 @@
   {
     "id": "com.tcl.hearaid",
     "seen_on_model_count": 16,
-    "kept_on_model_count": 6,
+    "kept_on_model_count": 7,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -17086,7 +17354,7 @@
   {
     "id": "com.tcl.messagebox",
     "seen_on_model_count": 65,
-    "kept_on_model_count": 5,
+    "kept_on_model_count": 6,
     "category": "ads",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -17103,7 +17371,7 @@
   {
     "id": "com.tcl.micmanager",
     "seen_on_model_count": 16,
-    "kept_on_model_count": 4,
+    "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -17314,7 +17582,7 @@
   {
     "id": "com.tcl.smartalexa",
     "seen_on_model_count": 42,
-    "kept_on_model_count": 11,
+    "kept_on_model_count": 12,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -17429,7 +17697,7 @@
   {
     "id": "com.tcl.ttvs",
     "seen_on_model_count": 19,
-    "kept_on_model_count": 20,
+    "kept_on_model_count": 21,
     "category": "telemetry",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -17598,7 +17866,7 @@
   {
     "id": "com.tcl.usercenter",
     "seen_on_model_count": 57,
-    "kept_on_model_count": 9,
+    "kept_on_model_count": 10,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -18562,7 +18830,7 @@
   },
   {
     "id": "com.vision.aibook",
-    "seen_on_model_count": 4,
+    "seen_on_model_count": 5,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -18613,6 +18881,19 @@
       "Alexa built-in (Google Assistant kept)",
       "HiAlexa (Google Assistant is kept)",
       "Hisense Alexa (Google Assistant is kept)"
+    ]
+  },
+  {
+    "id": "com.vt.ambiencelife",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "ambience / wallpaper gimmick"
     ]
   },
   {
@@ -18667,6 +18948,19 @@
       "Family Moment / photo surfaces",
       "Vtp_FamilyMoment, photo/camera app + its screensaver",
       "Vu \"Family Moment\" photo sharing, with its own screensaver"
+    ]
+  },
+  {
+    "id": "com.vt.mic.service",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "microphone background service"
     ]
   },
   {
@@ -20050,7 +20344,7 @@
   {
     "id": "com.xiaomo.tv.milegal",
     "seen_on_model_count": 17,
-    "kept_on_model_count": 1,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
