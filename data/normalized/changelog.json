@@ -1,15 +1,18 @@
 {
-  "from_commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73",
-  "to_commit": "3ece7766ad5d6af79a2c4dd73e77b4b9623dfeca",
+  "from_commit": "3ece7766ad5d6af79a2c4dd73e77b4b9623dfeca",
+  "to_commit": "311a34b164034514fb1fe0bd526a32b1b46f9070",
   "models_added": [
-    "vidda-vl7r-pro"
+    "rockchip-u1-max",
+    "vivensis-vx-smart",
+    "vstv-mt9255t"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "xiaomi-mi-tv-4a",
+      "slug": "toshiba-65ua2363dg",
       "added": [
-        "com.duokan.factorytest"
+        "com.android.providers.calendar",
+        "com.mstar.android.tv.disclaimercustomization"
       ],
       "removed": []
     }

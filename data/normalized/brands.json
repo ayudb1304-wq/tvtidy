@@ -470,6 +470,11 @@
     "model_count": 3
   },
   {
+    "slug": "rockchip",
+    "display_name": "Rockchip",
+    "model_count": 1
+  },
+  {
     "slug": "rocktek",
     "display_name": "RockTek",
     "model_count": 3
@@ -632,6 +637,16 @@
   {
     "slug": "vityas",
     "display_name": "Vityas",
+    "model_count": 1
+  },
+  {
+    "slug": "vivensis",
+    "display_name": "Vivensis",
+    "model_count": 1
+  },
+  {
+    "slug": "vstv",
+    "display_name": "VSTV",
     "model_count": 1
   },
   {

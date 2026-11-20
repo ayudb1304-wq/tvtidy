@@ -1316,7 +1316,7 @@
   {
     "id": "com.amazon.amazonvideo.livingroom",
     "seen_on_model_count": 66,
-    "kept_on_model_count": 57,
+    "kept_on_model_count": 58,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -3116,7 +3116,7 @@
   },
   {
     "id": "com.android.backupconfirm",
-    "seen_on_model_count": 20,
+    "seen_on_model_count": 21,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3155,7 +3155,7 @@
   },
   {
     "id": "com.android.bookmarkprovider",
-    "seen_on_model_count": 1,
+    "seen_on_model_count": 2,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3202,7 +3202,7 @@
   },
   {
     "id": "com.android.camera2",
-    "seen_on_model_count": 12,
+    "seen_on_model_count": 14,
     "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3276,7 +3276,7 @@
   },
   {
     "id": "com.android.companiondevicemanager",
-    "seen_on_model_count": 3,
+    "seen_on_model_count": 4,
     "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3289,7 +3289,7 @@
   },
   {
     "id": "com.android.cts.ctsshim",
-    "seen_on_model_count": 17,
+    "seen_on_model_count": 18,
     "kept_on_model_count": 0,
     "category": "telemetry",
     "category_source": "heuristic",
@@ -3299,12 +3299,13 @@
     "upstream_notes": [
       "Android test shim",
       "CTS test shim",
+      "CTS test shims, no UI",
       "CTS test shims, not user features"
     ]
   },
   {
     "id": "com.android.cts.priv.ctsshim",
-    "seen_on_model_count": 16,
+    "seen_on_model_count": 17,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3329,7 +3330,7 @@
   },
   {
     "id": "com.android.dreams.basic",
-    "seen_on_model_count": 34,
+    "seen_on_model_count": 37,
     "kept_on_model_count": 4,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3426,7 +3427,7 @@
   },
   {
     "id": "com.android.gallery3d",
-    "seen_on_model_count": 17,
+    "seen_on_model_count": 18,
     "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3510,7 +3511,7 @@
   },
   {
     "id": "com.android.htmlviewer",
-    "seen_on_model_count": 24,
+    "seen_on_model_count": 26,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3519,7 +3520,8 @@
     "excluded_reason": null,
     "upstream_notes": [
       "internal HTML viewer",
-      "local HTML viewer"
+      "local HTML viewer",
+      "opens file:// HTML; the browser app covers this"
     ]
   },
   {
@@ -3534,6 +3536,17 @@
     "upstream_notes": [
       "not an Android package: obfuscated, in /data/app, INSTALL/DELETE_PACKAGES, location, starts at boot"
     ]
+  },
+  {
+    "id": "com.android.inputmethod.pinyin",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
   },
   {
     "id": "com.android.localtransport",
@@ -3615,7 +3628,7 @@
   },
   {
     "id": "com.android.music",
-    "seen_on_model_count": 8,
+    "seen_on_model_count": 9,
     "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3725,7 +3738,7 @@
   },
   {
     "id": "com.android.printspooler",
-    "seen_on_model_count": 141,
+    "seen_on_model_count": 144,
     "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -3764,7 +3777,7 @@
   },
   {
     "id": "com.android.providers.calendar",
-    "seen_on_model_count": 38,
+    "seen_on_model_count": 39,
     "kept_on_model_count": 4,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3812,7 +3825,7 @@
   },
   {
     "id": "com.android.proxyhandler",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3868,7 +3881,7 @@
   },
   {
     "id": "com.android.sharedstoragebackup",
-    "seen_on_model_count": 18,
+    "seen_on_model_count": 20,
     "kept_on_model_count": 3,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -3918,6 +3931,17 @@
     "upstream_notes": [
       "ringtone / sound picker"
     ]
+  },
+  {
+    "id": "com.android.soundrecorder",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
   },
   {
     "id": "com.android.tcl.messagebox",
@@ -4010,7 +4034,7 @@
   },
   {
     "id": "com.android.wallpaperbackup",
-    "seen_on_model_count": 32,
+    "seen_on_model_count": 35,
     "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -4920,6 +4944,17 @@
     "upstream_notes": [
       "football game"
     ]
+  },
+  {
+    "id": "com.cghs.stresstest",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
   },
   {
     "id": "com.channel4.youviewandroidlauncher",
@@ -6643,6 +6678,19 @@
     "upstream_notes": []
   },
   {
+    "id": "com.example.a",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "ProductTest"
+    ]
+  },
+  {
     "id": "com.example.android.bluetoothlegatt",
     "seen_on_model_count": 1,
     "kept_on_model_count": 0,
@@ -7277,7 +7325,7 @@
   },
   {
     "id": "com.google.android.backuptransport",
-    "seen_on_model_count": 2,
+    "seen_on_model_count": 3,
     "kept_on_model_count": 1,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -7334,7 +7382,7 @@
   },
   {
     "id": "com.google.android.feedback",
-    "seen_on_model_count": 367,
+    "seen_on_model_count": 368,
     "kept_on_model_count": 7,
     "category": "telemetry",
     "category_source": "override",
@@ -7348,6 +7396,17 @@
       "crash / feedback reporting",
       "Google feedback"
     ]
+  },
+  {
+    "id": "com.google.android.googlequicksearchbox",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
   },
   {
     "id": "com.google.android.inputmethod.japanese",
@@ -7403,8 +7462,8 @@
   },
   {
     "id": "com.google.android.katniss",
-    "seen_on_model_count": 135,
-    "kept_on_model_count": 104,
+    "seen_on_model_count": 136,
+    "kept_on_model_count": 105,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7478,8 +7537,8 @@
   },
   {
     "id": "com.google.android.marvin.talkback",
-    "seen_on_model_count": 89,
-    "kept_on_model_count": 25,
+    "seen_on_model_count": 90,
+    "kept_on_model_count": 26,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7523,7 +7582,7 @@
   },
   {
     "id": "com.google.android.onetimeinitializer",
-    "seen_on_model_count": 80,
+    "seen_on_model_count": 81,
     "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -7540,7 +7599,7 @@
   },
   {
     "id": "com.google.android.partnersetup",
-    "seen_on_model_count": 184,
+    "seen_on_model_count": 186,
     "kept_on_model_count": 15,
     "category": "telemetry",
     "category_source": "override",
@@ -7557,8 +7616,8 @@
   },
   {
     "id": "com.google.android.play.games",
-    "seen_on_model_count": 287,
-    "kept_on_model_count": 29,
+    "seen_on_model_count": 288,
+    "kept_on_model_count": 30,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7622,7 +7681,7 @@
   {
     "id": "com.google.android.syncadapters.calendar",
     "seen_on_model_count": 150,
-    "kept_on_model_count": 13,
+    "kept_on_model_count": 14,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "yes",
@@ -7638,8 +7697,8 @@
   },
   {
     "id": "com.google.android.syncadapters.contacts",
-    "seen_on_model_count": 11,
-    "kept_on_model_count": 1,
+    "seen_on_model_count": 12,
+    "kept_on_model_count": 2,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -7652,8 +7711,8 @@
   },
   {
     "id": "com.google.android.tts",
-    "seen_on_model_count": 38,
-    "kept_on_model_count": 13,
+    "seen_on_model_count": 39,
+    "kept_on_model_count": 14,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -7670,7 +7729,7 @@
   {
     "id": "com.google.android.tungsten.setupwraith",
     "seen_on_model_count": 169,
-    "kept_on_model_count": 47,
+    "kept_on_model_count": 48,
     "category": "system_risky",
     "category_source": "rule",
     "safe_to_disable": "no",
@@ -7756,7 +7815,7 @@
   {
     "id": "com.google.android.tv.remote.service",
     "seen_on_model_count": 23,
-    "kept_on_model_count": 62,
+    "kept_on_model_count": 64,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
@@ -7900,7 +7959,7 @@
   {
     "id": "com.google.android.youtube.tvmusic",
     "seen_on_model_count": 162,
-    "kept_on_model_count": 58,
+    "kept_on_model_count": 60,
     "category": "preinstalled_app",
     "category_source": "override",
     "safe_to_disable": "caution",
@@ -12178,7 +12237,7 @@
   },
   {
     "id": "com.mstar.android.tv.disclaimercustomization",
-    "seen_on_model_count": 48,
+    "seen_on_model_count": 49,
     "kept_on_model_count": 5,
     "category": "preinstalled_app",
     "category_source": "override",
@@ -13611,6 +13670,28 @@
     ]
   },
   {
+    "id": "com.rockchip.devicetest",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
+  },
+  {
+    "id": "com.rockchips.dlna",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
+  },
+  {
     "id": "com.roku.web.trc",
     "seen_on_model_count": 1,
     "kept_on_model_count": 2,
@@ -13810,7 +13891,7 @@
   },
   {
     "id": "com.sdt.producttest",
-    "seen_on_model_count": 7,
+    "seen_on_model_count": 8,
     "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
@@ -13818,7 +13899,8 @@
     "description": "Unverified",
     "excluded_reason": null,
     "upstream_notes": [
-      "Skyworth product test, key check, USB command handler"
+      "Skyworth product test, key check, USB command handler",
+      "Skyworth factory test package"
     ]
   },
   {
@@ -18868,6 +18950,71 @@
     ]
   },
   {
+    "id": "com.vs.phone.remote.search.assistants",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "\"VsVoiceAssistants\" - voice search backend"
+    ]
+  },
+  {
+    "id": "com.vstv.diagnosis",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "telemetry",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "\"Diagnosis\" - vendor telemetry/self-test app"
+    ]
+  },
+  {
+    "id": "com.vstv.factory",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "telemetry",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "\"Factory Menu\" - service-menu UI"
+    ]
+  },
+  {
+    "id": "com.vstv.factory.test",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "telemetry",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "VsFactoryTest - panel/burn-in test routines"
+    ]
+  },
+  {
+    "id": "com.vstv.tv.assistant",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "\"TvAssistant\" - remote microphone / voice assistant"
+    ]
+  },
+  {
     "id": "com.vt.alexa",
     "seen_on_model_count": 5,
     "kept_on_model_count": 0,
@@ -19171,6 +19318,19 @@
     "excluded_reason": null,
     "upstream_notes": [
       "华数TV, preloaded"
+    ]
+  },
+  {
+    "id": "com.waxrain.airplaydmr",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": [
+      "third-party AirPlay receiver"
     ]
   },
   {
@@ -21008,6 +21168,17 @@
     ]
   },
   {
+    "id": "cyx.browser",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
+  },
+  {
     "id": "de.benzac.msx",
     "seen_on_model_count": 1,
     "kept_on_model_count": 0,
@@ -21461,6 +21632,17 @@
     "id": "it.telecomitalia.timmusic_tv",
     "seen_on_model_count": 1,
     "kept_on_model_count": 1,
+    "category": "preinstalled_app",
+    "category_source": "heuristic",
+    "safe_to_disable": "caution",
+    "description": "Unverified",
+    "excluded_reason": null,
+    "upstream_notes": []
+  },
+  {
+    "id": "jp.co.omronsoft.openwnn",
+    "seen_on_model_count": 1,
+    "kept_on_model_count": 0,
     "category": "preinstalled_app",
     "category_source": "heuristic",
     "safe_to_disable": "caution",
