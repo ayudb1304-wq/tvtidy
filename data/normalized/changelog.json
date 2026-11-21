@@ -1,20 +1,20 @@
 {
-  "from_commit": "3ece7766ad5d6af79a2c4dd73e77b4b9623dfeca",
-  "to_commit": "311a34b164034514fb1fe0bd526a32b1b46f9070",
+  "from_commit": "311a34b164034514fb1fe0bd526a32b1b46f9070",
+  "to_commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b",
   "models_added": [
-    "rockchip-u1-max",
-    "vivensis-vx-smart",
-    "vstv-mt9255t"
+    "aurzen-boom-air",
+    "btv-b13",
+    "chiq-u43qm8v",
+    "element-e450ad65g",
+    "epson-ef21",
+    "haier-l55f5",
+    "mediatek-m7332",
+    "next-nek7",
+    "philips-65oled908",
+    "sharp-2t-c43gh3000x",
+    "skyworth-7t864-h5d",
+    "tcl-65q6-cn"
   ],
   "models_removed": [],
-  "packages_changed": [
-    {
-      "slug": "toshiba-65ua2363dg",
-      "added": [
-        "com.android.providers.calendar",
-        "com.mstar.android.tv.disclaimercustomization"
-      ],
-      "removed": []
-    }
-  ]
+  "packages_changed": []
 }
