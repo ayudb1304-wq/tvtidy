@@ -195,6 +195,11 @@
     "model_count": 1
   },
   {
+    "slug": "glofiish",
+    "display_name": "Glofiish",
+    "model_count": 1
+  },
+  {
     "slug": "google",
     "display_name": "Google",
     "model_count": 3
@@ -222,7 +227,7 @@
   {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 17
+    "model_count": 18
   },
   {
     "slug": "hitachi",
@@ -572,7 +577,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 89
+    "model_count": 90
   },
   {
     "slug": "td-systems",
@@ -592,7 +597,7 @@
   {
     "slug": "thomson",
     "display_name": "Thomson",
-    "model_count": 4
+    "model_count": 5
   },
   {
     "slug": "tim",
