@@ -1,41 +1,24 @@
 {
-  "from_commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b",
-  "to_commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258",
+  "from_commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258",
+  "to_commit": "7b7666ad05a3a62ba25768c51fbf06e9c4e67da5",
   "models_added": [
-    "glofiish-ix40",
-    "hisense-65u8h",
-    "tcl-50ep660",
-    "thomson-atv-r1"
+    "nvidia-shield-tv-2015",
+    "skyworth-swtv-22ae-fhd-android11",
+    "tcl-43s434",
+    "tcl-55q9k",
+    "thomson-65qg7c14"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "challenger-32t22bt",
-      "added": [],
-      "removed": [
-        "com.cvte.tv.launcher"
-      ]
-    },
-    {
-      "slug": "prismplus-q65-ultra-r10g",
+      "slug": "tcl-65c6k-google-tv",
       "added": [
-        "com.apps.mk.sk",
-        "com.google.android.katniss",
-        "com.realtek.connecteddevices",
-        "com.realtek.connecteddevices.overlay",
-        "com.realtek.energymode"
+        "com.android.printspooler",
+        "com.mediatek.backgrounddetection",
+        "com.mediatek.support.webview",
+        "com.tcl.android.webview"
       ],
-      "removed": [
-        "com.apps.scast",
-        "com.google.android.partnersetup"
-      ]
-    },
-    {
-      "slug": "skyworth-65a3f",
-      "added": [],
-      "removed": [
-        "com.coocaa.os.upgrade"
-      ]
+      "removed": []
     }
   ]
 }

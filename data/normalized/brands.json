@@ -402,7 +402,7 @@
   {
     "slug": "nvidia-shield",
     "display_name": "NVIDIA Shield",
-    "model_count": 3
+    "model_count": 4
   },
   {
     "slug": "ok",
@@ -542,7 +542,7 @@
   {
     "slug": "skyworth",
     "display_name": "Skyworth",
-    "model_count": 18
+    "model_count": 19
   },
   {
     "slug": "smarttech",
@@ -577,7 +577,7 @@
   {
     "slug": "tcl",
     "display_name": "TCL",
-    "model_count": 90
+    "model_count": 92
   },
   {
     "slug": "td-systems",
@@ -597,7 +597,7 @@
   {
     "slug": "thomson",
     "display_name": "Thomson",
-    "model_count": 5
+    "model_count": 6
   },
   {
     "slug": "tim",
