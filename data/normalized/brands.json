@@ -185,6 +185,11 @@
     "model_count": 4
   },
   {
+    "slug": "formuler",
+    "display_name": "Formuler",
+    "model_count": 1
+  },
+  {
     "slug": "freebox",
     "display_name": "Freebox",
     "model_count": 1
@@ -227,7 +232,7 @@
   {
     "slug": "hisense",
     "display_name": "Hisense",
-    "model_count": 18
+    "model_count": 19
   },
   {
     "slug": "hitachi",
@@ -282,7 +287,7 @@
   {
     "slug": "jvc",
     "display_name": "JVC",
-    "model_count": 6
+    "model_count": 7
   },
   {
     "slug": "kalley",
@@ -542,7 +547,7 @@
   {
     "slug": "skyworth",
     "display_name": "Skyworth",
-    "model_count": 19
+    "model_count": 20
   },
   {
     "slug": "smarttech",
@@ -637,7 +642,7 @@
   {
     "slug": "verizon",
     "display_name": "Verizon",
-    "model_count": 1
+    "model_count": 2
   },
   {
     "slug": "vidda",

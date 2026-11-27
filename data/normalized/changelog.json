@@ -1,24 +1,28 @@
 {
-  "from_commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258",
-  "to_commit": "7b7666ad05a3a62ba25768c51fbf06e9c4e67da5",
+  "from_commit": "7b7666ad05a3a62ba25768c51fbf06e9c4e67da5",
+  "to_commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27",
   "models_added": [
-    "nvidia-shield-tv-2015",
-    "skyworth-swtv-22ae-fhd-android11",
-    "tcl-43s434",
-    "tcl-55q9k",
-    "thomson-65qg7c14"
+    "formuler-z10-neo",
+    "hisense-40a4h",
+    "jvc-4k-isdb-ktc-hongkong",
+    "skyworth-8n05-q30",
+    "verizon-stream-tv-gen2"
   ],
   "models_removed": [],
   "packages_changed": [
     {
-      "slug": "tcl-65c6k-google-tv",
+      "slug": "epson-ls800",
       "added": [
-        "com.android.printspooler",
-        "com.mediatek.backgrounddetection",
-        "com.mediatek.support.webview",
-        "com.tcl.android.webview"
+        "com.google.android.backdrop"
       ],
       "removed": []
+    },
+    {
+      "slug": "tcl-g08-au-android14",
+      "added": [],
+      "removed": [
+        "com.mediatek.backgrounddetection"
+      ]
     }
   ]
 }
